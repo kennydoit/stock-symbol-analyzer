@@ -1,0 +1,36 @@
+# Stock Symbol Configuration
+symbol_sources:
+  # Major US Exchanges
+  sp500: true
+  nasdaq100: true
+  dow30: true
+  
+  # Custom symbol lists
+  custom_symbols:
+    - "AAPL"
+    - "GOOGL"
+    - "MSFT"
+    - "AMZN"
+    - "TSLA"
+    - "NVDA"
+    - "META"
+    - "NFLX"
+
+# Validation settings
+validation:
+  min_market_cap: 1000000000  # $1B minimum
+  min_avg_volume: 100000      # 100K shares daily average
+  exclude_otc: true
+  exclude_penny_stocks: true
+  max_price_threshold: null   # null for no limit
+  min_price_threshold: 5.0    # $5 minimum
+
+# Data requirements
+data_requirements:
+  min_history_days: 252       # 1 year of trading data
+  required_fields:
+    - "Open"
+    - "High" 
+    - "Low"
+    - "Close"
+    - "Volume"

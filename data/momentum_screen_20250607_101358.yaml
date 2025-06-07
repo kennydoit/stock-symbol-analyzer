@@ -1,0 +1,894 @@
+screen_name: momentum_screen
+screen_date: '2025-06-07T10:13:58.361776'
+total_results: 89
+results:
+- symbol: ABNB
+  sector: Consumer Cyclical
+  industry: Travel Services
+  current_price: 140.63999938964844
+  market_cap: 86804832256
+  three_month_return: 0.06424522047132629
+  volume_ratio: 1.1233077497242574
+  recent_volume: 6089000.0
+  avg_volume: 5420598.230088496
+  screen_date: '2025-06-07'
+- symbol: ADP
+  sector: Technology
+  industry: Software - Application
+  current_price: 326.80999755859375
+  market_cap: 132659699712
+  three_month_return: 0.08436389609987208
+  volume_ratio: 0.8631327867622319
+  recent_volume: 1577780.0
+  avg_volume: 1827969.0265486725
+  screen_date: '2025-06-07'
+- symbol: ALLE
+  sector: Industrials
+  industry: Security & Protection Services
+  current_price: 139.14999389648438
+  market_cap: 11973758976
+  three_month_return: 0.05608535460481631
+  volume_ratio: 1.0575735802178738
+  recent_volume: 1018580.0
+  avg_volume: 963129.2035398231
+  screen_date: '2025-06-07'
+- symbol: AMAT
+  sector: Technology
+  industry: Semiconductor Equipment & Materials
+  current_price: 166.74000549316406
+  market_cap: 133808521216
+  three_month_return: 0.11483519527339316
+  volume_ratio: 0.8461673492991154
+  recent_volume: 6264740.0
+  avg_volume: 7403665.486725664
+  screen_date: '2025-06-07'
+- symbol: AMP
+  sector: Financial Services
+  industry: Asset Management
+  current_price: 518.6300048828125
+  market_cap: 49385353216
+  three_month_return: 0.08322431699596781
+  volume_ratio: 0.897510081396408
+  recent_volume: 479600.0
+  avg_volume: 534367.2566371681
+  screen_date: '2025-06-07'
+- symbol: AMZN
+  sector: Consumer Cyclical
+  industry: Internet Retail
+  current_price: 213.57000732421875
+  market_cap: 2267344535552
+  three_month_return: 0.09782057517652044
+  volume_ratio: 0.8271716011836767
+  recent_volume: 36783420.0
+  avg_volume: 44468910.619469024
+  screen_date: '2025-06-07'
+- symbol: ANET
+  sector: Technology
+  industry: Computer Hardware
+  current_price: 97.25
+  market_cap: 122138222592
+  three_month_return: 0.25386801265086645
+  volume_ratio: 0.8872807529265352
+  recent_volume: 9125860.0
+  avg_volume: 10285200.0
+  screen_date: '2025-06-07'
+- symbol: ANSS
+  sector: Technology
+  industry: Software - Application
+  current_price: 339.2699890136719
+  market_cap: 29827293184
+  three_month_return: 0.0645100502332123
+  volume_ratio: 1.446775797236237
+  recent_volume: 797080.0
+  avg_volume: 550935.3982300885
+  screen_date: '2025-06-07'
+- symbol: AVGO
+  sector: Technology
+  industry: Semiconductors
+  current_price: 246.92999267578125
+  market_cap: 1161052422144
+  three_month_return: 0.3427877534083101
+  volume_ratio: 1.007579798848269
+  recent_volume: 32904340.0
+  avg_volume: 32656807.96460177
+  screen_date: '2025-06-07'
+- symbol: BEN
+  sector: Financial Services
+  industry: Asset Management
+  current_price: 21.8700008392334
+  market_cap: 11493144576
+  three_month_return: 0.11029031130443034
+  volume_ratio: 0.8657884537998182
+  recent_volume: 3920320.0
+  avg_volume: 4528034.513274336
+  screen_date: '2025-06-07'
+- symbol: BR
+  sector: Technology
+  industry: Information Technology Services
+  current_price: 245.35000610351562
+  market_cap: 28819548160
+  three_month_return: 0.059638173539706074
+  volume_ratio: 0.8599147028378614
+  recent_volume: 452860.0
+  avg_volume: 526633.6283185841
+  screen_date: '2025-06-07'
+- symbol: BSX
+  sector: Healthcare
+  industry: Medical Devices
+  current_price: 102.08999633789062
+  market_cap: 151037050880
+  three_month_return: 0.08456389372925026
+  volume_ratio: 1.0013993625787436
+  recent_volume: 7294800.0
+  avg_volume: 7284606.194690266
+  screen_date: '2025-06-07'
+- symbol: BXP
+  sector: Real Estate
+  industry: REIT - Office
+  current_price: 74.12000274658203
+  market_cap: 13100191744
+  three_month_return: 0.1032568541772137
+  volume_ratio: 1.1356229216099079
+  recent_volume: 1578140.0
+  avg_volume: 1389669.0265486725
+  screen_date: '2025-06-07'
+- symbol: CCL
+  sector: Consumer Cyclical
+  industry: Travel Services
+  current_price: 24.280000686645508
+  market_cap: 32896002048
+  three_month_return: 0.2725367287071465
+  volume_ratio: 0.8622649283963775
+  recent_volume: 20574360.0
+  avg_volume: 23860833.628318585
+  screen_date: '2025-06-07'
+- symbol: CDNS
+  sector: Technology
+  industry: Software - Application
+  current_price: 296.95001220703125
+  market_cap: 81079820288
+  three_month_return: 0.2692340728567373
+  volume_ratio: 0.8155515772717937
+  recent_volume: 1662180.0
+  avg_volume: 2038105.3097345133
+  screen_date: '2025-06-07'
+- symbol: CDW
+  sector: Technology
+  industry: Information Technology Services
+  current_price: 178.24000549316406
+  market_cap: 23471536128
+  three_month_return: 0.055097462818886396
+  volume_ratio: 0.8218222645322066
+  recent_volume: 1171160.0
+  avg_volume: 1425076.9911504425
+  screen_date: '2025-06-07'
+- symbol: CEG
+  sector: Utilities
+  industry: Utilities - Renewable
+  current_price: 298.79998779296875
+  market_cap: 93648994304
+  three_month_return: 0.4796903873407458
+  volume_ratio: 1.2808055417265514
+  recent_volume: 5234200.0
+  avg_volume: 4086646.902654867
+  screen_date: '2025-06-07'
+- symbol: CF
+  sector: Basic Materials
+  industry: Agricultural Inputs
+  current_price: 92.13999938964844
+  market_cap: 14927601664
+  three_month_return: 0.20206249165785548
+  volume_ratio: 0.8701860379057905
+  recent_volume: 2205860.0
+  avg_volume: 2534929.203539823
+  screen_date: '2025-06-07'
+- symbol: CFG
+  sector: Financial Services
+  industry: Banks - Regional
+  current_price: 41.369998931884766
+  market_cap: 17940058112
+  three_month_return: 0.050940932973073755
+  volume_ratio: 1.035819717024278
+  recent_volume: 4748160.0
+  avg_volume: 4583963.716814159
+  screen_date: '2025-06-07'
+- symbol: CHTR
+  sector: Communication Services
+  industry: Telecom Services
+  current_price: 396.45001220703125
+  market_cap: 54763225088
+  three_month_return: 0.06138901228260657
+  volume_ratio: 0.8489031392673668
+  recent_volume: 1093240.0
+  avg_volume: 1287826.5486725664
+  screen_date: '2025-06-07'
+- symbol: CMG
+  sector: Consumer Cyclical
+  industry: Restaurants
+  current_price: 52.5
+  market_cap: 70736396288
+  three_month_return: 0.05358214069503276
+  volume_ratio: 1.171078144801186
+  recent_volume: 14245720.0
+  avg_volume: 12164619.469026549
+  screen_date: '2025-06-07'
+- symbol: CNP
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 36.61000061035156
+  market_cap: 23896373248
+  three_month_return: 0.06975238094813462
+  volume_ratio: 0.9174160027543301
+  recent_volume: 4711480.0
+  avg_volume: 5135598.230088496
+  screen_date: '2025-06-07'
+- symbol: COIN
+  sector: Financial Services
+  industry: Financial Data & Stock Exchanges
+  current_price: 251.27000427246094
+  market_cap: 63999725568
+  three_month_return: 0.40194169649167033
+  volume_ratio: 0.818151330621685
+  recent_volume: 8305860.0
+  avg_volume: 10151984.955752213
+  screen_date: '2025-06-07'
+- symbol: COST
+  sector: Consumer Defensive
+  industry: Discount Stores
+  current_price: 1014.9400024414062
+  market_cap: 450102525952
+  three_month_return: 0.08759797277234004
+  volume_ratio: 0.9517796720176539
+  recent_volume: 2141260.0
+  avg_volume: 2249743.3628318585
+  screen_date: '2025-06-07'
+- symbol: CRWD
+  sector: Technology
+  industry: Software - Infrastructure
+  current_price: 468.4100036621094
+  market_cap: 116750254080
+  three_month_return: 0.5165771737278875
+  volume_ratio: 1.940817799116387
+  recent_volume: 7419360.0
+  avg_volume: 3822800.884955752
+  screen_date: '2025-06-07'
+- symbol: CSX
+  sector: Industrials
+  industry: Railroads
+  current_price: 32.22999954223633
+  market_cap: 60545667072
+  three_month_return: 0.055918665940050134
+  volume_ratio: 1.1530629551122875
+  recent_volume: 16996700.0
+  avg_volume: 14740478.761061948
+  screen_date: '2025-06-07'
+- symbol: CTVA
+  sector: Basic Materials
+  industry: Agricultural Inputs
+  current_price: 71.63999938964844
+  market_cap: 48870658048
+  three_month_return: 0.19210534100123414
+  volume_ratio: 0.8981777126776055
+  recent_volume: 3191320.0
+  avg_volume: 3553105.309734513
+  screen_date: '2025-06-07'
+- symbol: DASH
+  sector: Consumer Cyclical
+  industry: Internet Retail
+  current_price: 218.4499969482422
+  market_cap: 92566872064
+  three_month_return: 0.22821318002136712
+  volume_ratio: 0.8264094551040968
+  recent_volume: 4034980.0
+  avg_volume: 4882543.362831858
+  screen_date: '2025-06-07'
+- symbol: DAY
+  sector: Technology
+  industry: Software - Application
+  current_price: 60.41999816894531
+  market_cap: 9660009472
+  three_month_return: 0.10436847340568173
+  volume_ratio: 0.844742008015285
+  recent_volume: 1540020.0
+  avg_volume: 1823065.4867256638
+  screen_date: '2025-06-07'
+- symbol: DE
+  sector: Industrials
+  industry: Farm & Heavy Construction Machinery
+  current_price: 519.989990234375
+  market_cap: 140827328512
+  three_month_return: 0.0675696580218477
+  volume_ratio: 0.8130314106188931
+  recent_volume: 1138780.0
+  avg_volume: 1400659.2920353983
+  screen_date: '2025-06-07'
+- symbol: DG
+  sector: Consumer Defensive
+  industry: Discount Stores
+  current_price: 113.4800033569336
+  market_cap: 24973658112
+  three_month_return: 0.37937544942687584
+  volume_ratio: 1.6654503887761263
+  recent_volume: 6747220.0
+  avg_volume: 4051288.4955752213
+  screen_date: '2025-06-07'
+- symbol: DLTR
+  sector: Consumer Defensive
+  industry: Discount Stores
+  current_price: 94.5
+  market_cap: 19721771008
+  three_month_return: 0.4012455008747105
+  volume_ratio: 2.2449527506916103
+  recent_volume: 9327880.0
+  avg_volume: 4155045.132743363
+  screen_date: '2025-06-07'
+- symbol: DPZ
+  sector: Consumer Cyclical
+  industry: Restaurants
+  current_price: 468.2099914550781
+  market_cap: 16032211968
+  three_month_return: 0.06837766643436077
+  volume_ratio: 0.819603205772808
+  recent_volume: 504180.0
+  avg_volume: 615151.3274336283
+  screen_date: '2025-06-07'
+- symbol: EA
+  sector: Communication Services
+  industry: Electronic Gaming & Multimedia
+  current_price: 149.57000732421875
+  market_cap: 37507072000
+  three_month_return: 0.06646523017321675
+  volume_ratio: 0.8099523912360609
+  recent_volume: 2920760.0
+  avg_volume: 3606088.4955752213
+  screen_date: '2025-06-07'
+- symbol: EBAY
+  sector: Consumer Cyclical
+  industry: Internet Retail
+  current_price: 78.61000061035156
+  market_cap: 36226949120
+  three_month_return: 0.16267053457317582
+  volume_ratio: 1.1176817388495837
+  recent_volume: 5983980.0
+  avg_volume: 5353921.238938053
+  screen_date: '2025-06-07'
+- symbol: EMR
+  sector: Industrials
+  industry: Specialty Industrial Machinery
+  current_price: 123.51000213623047
+  market_cap: 69474369536
+  three_month_return: 0.10931507359959851
+  volume_ratio: 0.8101481354586147
+  recent_volume: 2540360.0
+  avg_volume: 3135673.451327434
+  screen_date: '2025-06-07'
+- symbol: ES
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 65.48999786376953
+  market_cap: 24060043264
+  three_month_return: 0.07357194684434329
+  volume_ratio: 1.0407039016831003
+  recent_volume: 2946020.0
+  avg_volume: 2830795.575221239
+  screen_date: '2025-06-07'
+- symbol: FCX
+  sector: Basic Materials
+  industry: Copper
+  current_price: 41.47999954223633
+  market_cap: 59573571584
+  three_month_return: 0.20768626663510953
+  volume_ratio: 0.808553747941708
+  recent_volume: 12761680.0
+  avg_volume: 15783341.592920354
+  screen_date: '2025-06-07'
+- symbol: FIS
+  sector: Technology
+  industry: Information Technology Services
+  current_price: 81.2300033569336
+  market_cap: 42677837824
+  three_month_return: 0.14618327858800104
+  volume_ratio: 0.8287688026410661
+  recent_volume: 3128900.0
+  avg_volume: 3775359.292035398
+  screen_date: '2025-06-07'
+- symbol: FSLR
+  sector: Technology
+  industry: Solar
+  current_price: 166.35000610351562
+  market_cap: 17840039936
+  three_month_return: 0.24971831823866047
+  volume_ratio: 0.991843722548152
+  recent_volume: 3480140.0
+  avg_volume: 3508758.407079646
+  screen_date: '2025-06-07'
+- symbol: GDDY
+  sector: Technology
+  industry: Software - Infrastructure
+  current_price: 182.9499969482422
+  market_cap: 26068178944
+  three_month_return: 0.06107179498389208
+  volume_ratio: 1.0076782080594282
+  recent_volume: 1475100.0
+  avg_volume: 1463860.1769911505
+  screen_date: '2025-06-07'
+- symbol: GE
+  sector: Industrials
+  industry: Aerospace & Defense
+  current_price: 255.6300048828125
+  market_cap: 272601284608
+  three_month_return: 0.3305747000820283
+  volume_ratio: 0.965844717692024
+  recent_volume: 5540040.0
+  avg_volume: 5735953.097345132
+  screen_date: '2025-06-07'
+- symbol: GEN
+  sector: Technology
+  industry: Software - Infrastructure
+  current_price: 29.329999923706055
+  market_cap: 18191345664
+  three_month_return: 0.06384295985498264
+  volume_ratio: 1.064187692174344
+  recent_volume: 4237440.0
+  avg_volume: 3981853.982300885
+  screen_date: '2025-06-07'
+- symbol: HBAN
+  sector: Financial Services
+  industry: Banks - Regional
+  current_price: 16.219999313354492
+  market_cap: 23629457408
+  three_month_return: 0.11956994258616355
+  volume_ratio: 1.109483677398603
+  recent_volume: 23312040.0
+  avg_volume: 21011611.50442478
+  screen_date: '2025-06-07'
+- symbol: HPE
+  sector: Technology
+  industry: Communication Equipment
+  current_price: 18.110000610351562
+  market_cap: 23764305920
+  three_month_return: 0.21062535900144524
+  volume_ratio: 1.3528446155658336
+  recent_volume: 25307760.0
+  avg_volume: 18707070.796460178
+  screen_date: '2025-06-07'
+- symbol: HUBB
+  sector: Industrials
+  industry: Electrical Equipment & Parts
+  current_price: 395.2799987792969
+  market_cap: 21097121792
+  three_month_return: 0.1744814545776362
+  volume_ratio: 0.8063547049224391
+  recent_volume: 512417.2
+  avg_volume: 635473.6902654867
+  screen_date: '2025-06-07'
+- symbol: INTU
+  sector: Technology
+  industry: Software - Application
+  current_price: 771.5800170898438
+  market_cap: 215229939712
+  three_month_return: 0.33313946854402304
+  volume_ratio: 0.8291894021256476
+  recent_volume: 1479020.0
+  avg_volume: 1783693.8053097345
+  screen_date: '2025-06-07'
+- symbol: JCI
+  sector: Industrials
+  industry: Building Products & Equipment
+  current_price: 103.79000091552734
+  market_cap: 68298694656
+  three_month_return: 0.33799123536641873
+  volume_ratio: 0.8585945866237127
+  recent_volume: 3833580.0
+  avg_volume: 4464947.787610619
+  screen_date: '2025-06-07'
+- symbol: KLAC
+  sector: Technology
+  industry: Semiconductor Equipment & Materials
+  current_price: 808.0
+  market_cap: 106850729984
+  three_month_return: 0.193975337583322
+  volume_ratio: 0.8970127606490215
+  recent_volume: 1052500.0
+  avg_volume: 1173338.9380530973
+  screen_date: '2025-06-07'
+- symbol: KMI
+  sector: Energy
+  industry: Oil & Gas Midstream
+  current_price: 28.139999389648438
+  market_cap: 62548746240
+  three_month_return: 0.08822928910981764
+  volume_ratio: 0.8852972024734465
+  recent_volume: 12564720.0
+  avg_volume: 14192657.522123894
+  screen_date: '2025-06-07'
+- symbol: L
+  sector: Financial Services
+  industry: Insurance - Property & Casualty
+  current_price: 89.13999938964844
+  market_cap: 18692388864
+  three_month_return: 0.05018947216279604
+  volume_ratio: 0.8143802594871842
+  recent_volume: 627240.0
+  avg_volume: 770205.3097345133
+  screen_date: '2025-06-07'
+- symbol: LDOS
+  sector: Technology
+  industry: Information Technology Services
+  current_price: 148.13999938964844
+  market_cap: 19068432384
+  three_month_return: 0.08157912620331698
+  volume_ratio: 0.9340815588697218
+  recent_volume: 1422140.0
+  avg_volume: 1522500.8849557522
+  screen_date: '2025-06-07'
+- symbol: LUV
+  sector: Industrials
+  industry: Airlines
+  current_price: 33.47999954223633
+  market_cap: 19079112704
+  three_month_return: 0.19512289777963698
+  volume_ratio: 0.9649251968174755
+  recent_volume: 10723440.0
+  avg_volume: 11113234.513274336
+  screen_date: '2025-06-07'
+- symbol: LYV
+  sector: Communication Services
+  industry: Entertainment
+  current_price: 144.14999389648438
+  market_cap: 33409933312
+  three_month_return: 0.17395547537825587
+  volume_ratio: 1.9160695038344127
+  recent_volume: 4463060.0
+  avg_volume: 2329278.761061947
+  screen_date: '2025-06-07'
+- symbol: MCHP
+  sector: Technology
+  industry: Semiconductors
+  current_price: 65.25
+  market_cap: 35195785216
+  three_month_return: 0.23021430456292533
+  volume_ratio: 1.0172099690786125
+  recent_volume: 11117320.0
+  avg_volume: 10929228.318584071
+  screen_date: '2025-06-07'
+- symbol: META
+  sector: Communication Services
+  industry: Internet Content & Information
+  current_price: 697.7100219726562
+  market_cap: 1754273284096
+  three_month_return: 0.16779675544162442
+  volume_ratio: 0.8012699032804729
+  recent_volume: 13242760.0
+  avg_volume: 16527215.044247787
+  screen_date: '2025-06-07'
+- symbol: MNST
+  sector: Consumer Defensive
+  industry: Beverages - Non-Alcoholic
+  current_price: 63.40999984741211
+  market_cap: 61840351232
+  three_month_return: 0.13699120184577446
+  volume_ratio: 0.8158288091200482
+  recent_volume: 4902420.0
+  avg_volume: 6009128.318584071
+  screen_date: '2025-06-07'
+- symbol: MOS
+  sector: Basic Materials
+  industry: Agricultural Inputs
+  current_price: 34.79999923706055
+  market_cap: 11039638528
+  three_month_return: 0.40712143630298286
+  volume_ratio: 1.1504154500929384
+  recent_volume: 6361660.0
+  avg_volume: 5529880.530973451
+  screen_date: '2025-06-07'
+- symbol: MU
+  sector: Technology
+  industry: Semiconductors
+  current_price: 108.55999755859375
+  market_cap: 121323405312
+  three_month_return: 0.24829290665386544
+  volume_ratio: 0.845118251781785
+  recent_volume: 20746440.0
+  avg_volume: 24548564.601769913
+  screen_date: '2025-06-07'
+- symbol: NDAQ
+  sector: Financial Services
+  industry: Financial Data & Stock Exchanges
+  current_price: 85.61000061035156
+  market_cap: 49150582784
+  three_month_return: 0.17907536974975521
+  volume_ratio: 0.9276767282661799
+  recent_volume: 2903240.0
+  avg_volume: 3129581.5789473685
+  screen_date: '2025-06-07'
+- symbol: NEM
+  sector: Basic Materials
+  industry: Gold
+  current_price: 52.36000061035156
+  market_cap: 58276675584
+  three_month_return: 0.24156557172117876
+  volume_ratio: 1.0314246244060172
+  recent_volume: 12122340.0
+  avg_volume: 11753006.194690265
+  screen_date: '2025-06-07'
+- symbol: NRG
+  sector: Utilities
+  industry: Utilities - Independent Power Producers
+  current_price: 155.94000244140625
+  market_cap: 30487830528
+  three_month_return: 0.845893473481078
+  volume_ratio: 0.9830152975035369
+  recent_volume: 3136620.0
+  avg_volume: 3190815.0442477874
+  screen_date: '2025-06-07'
+- symbol: NSC
+  sector: Industrials
+  industry: Railroads
+  current_price: 250.77000427246094
+  market_cap: 56534593536
+  three_month_return: 0.055231606025091
+  volume_ratio: 0.9245561481798035
+  recent_volume: 1194700.0
+  avg_volume: 1292187.610619469
+  screen_date: '2025-06-07'
+- symbol: NTAP
+  sector: Technology
+  industry: Computer Hardware
+  current_price: 106.25
+  market_cap: 21927555072
+  three_month_return: 0.16166586074206846
+  volume_ratio: 1.4037647905795538
+  recent_volume: 2816100.0
+  avg_volume: 2006105.3097345133
+  screen_date: '2025-06-07'
+- symbol: NTRS
+  sector: Financial Services
+  industry: Asset Management
+  current_price: 107.91000366210938
+  market_cap: 20992704512
+  three_month_return: 0.08103476818787775
+  volume_ratio: 0.8581414843577074
+  recent_volume: 1166480.0
+  avg_volume: 1359309.649122807
+  screen_date: '2025-06-07'
+- symbol: 'ON'
+  sector: Technology
+  industry: Semiconductors
+  current_price: 50.16999816894531
+  market_cap: 20965289984
+  three_month_return: 0.13609597695425274
+  volume_ratio: 1.6582041288313232
+  recent_volume: 15857500.0
+  avg_volume: 9563056.637168141
+  screen_date: '2025-06-07'
+- symbol: PAYC
+  sector: Technology
+  industry: Software - Application
+  current_price: 265.7099914550781
+  market_cap: 14884409344
+  three_month_return: 0.22613997253756052
+  volume_ratio: 0.8617558237440359
+  recent_volume: 543440.0
+  avg_volume: 630619.4690265487
+  screen_date: '2025-06-07'
+- symbol: PLTR
+  sector: Technology
+  industry: Software - Infrastructure
+  current_price: 127.72000122070312
+  market_cap: 301407698944
+  three_month_return: 0.6721655644598458
+  volume_ratio: 0.9856119936607982
+  recent_volume: 100206000.0
+  avg_volume: 101668811.50442478
+  screen_date: '2025-06-07'
+- symbol: PODD
+  sector: Healthcare
+  industry: Medical Devices
+  current_price: 311.7699890136719
+  market_cap: 21940781056
+  three_month_return: 0.31515224932292585
+  volume_ratio: 1.0346157861645435
+  recent_volume: 789280.0
+  avg_volume: 762872.5663716814
+  screen_date: '2025-06-07'
+- symbol: RJF
+  sector: Financial Services
+  industry: Asset Management
+  current_price: 146.75
+  market_cap: 29607546880
+  three_month_return: 0.07019428927514298
+  volume_ratio: 0.8516079952977683
+  recent_volume: 1202680.0
+  avg_volume: 1412246.017699115
+  screen_date: '2025-06-07'
+- symbol: ROK
+  sector: Industrials
+  industry: Specialty Industrial Machinery
+  current_price: 324.3299865722656
+  market_cap: 36557176832
+  three_month_return: 0.20468466597619048
+  volume_ratio: 0.9061890281833418
+  recent_volume: 876620.0
+  avg_volume: 967369.9115044248
+  screen_date: '2025-06-07'
+- symbol: ROL
+  sector: Consumer Cyclical
+  industry: Personal Services
+  current_price: 57.77000045776367
+  market_cap: 27998001152
+  three_month_return: 0.10823540690024602
+  volume_ratio: 0.8111204214851627
+  recent_volume: 1584780.0
+  avg_volume: 1953815.9292035399
+  screen_date: '2025-06-07'
+- symbol: ROST
+  sector: Consumer Cyclical
+  industry: Apparel Retail
+  current_price: 143.8000030517578
+  market_cap: 47286329344
+  three_month_return: 0.09192713948594798
+  volume_ratio: 0.8222970036562481
+  recent_volume: 2322460.0
+  avg_volume: 2824356.6371681415
+  screen_date: '2025-06-07'
+- symbol: RSG
+  sector: Industrials
+  industry: Waste Management
+  current_price: 252.97000122070312
+  market_cap: 79052365824
+  three_month_return: 0.08689863210666535
+  volume_ratio: 0.9992311973915574
+  recent_volume: 1218520.0
+  avg_volume: 1219457.5221238937
+  screen_date: '2025-06-07'
+- symbol: SNPS
+  sector: Technology
+  industry: Software - Infrastructure
+  current_price: 486.0
+  market_cap: 75408244736
+  three_month_return: 0.13062694684006226
+  volume_ratio: 1.0247536028799589
+  recent_volume: 1237380.0
+  avg_volume: 1207490.2654867256
+  screen_date: '2025-06-07'
+- symbol: STE
+  sector: Healthcare
+  industry: Medical Devices
+  current_price: 243.72000122070312
+  market_cap: 23975299072
+  three_month_return: 0.052649775431589836
+  volume_ratio: 1.0261051948851379
+  recent_volume: 604820.0
+  avg_volume: 589432.7433628319
+  screen_date: '2025-06-07'
+- symbol: STLD
+  sector: Basic Materials
+  industry: Steel
+  current_price: 133.55999755859375
+  market_cap: 19827515392
+  three_month_return: 0.12312273972521885
+  volume_ratio: 1.0258504330549778
+  recent_volume: 1754640.0
+  avg_volume: 1710424.7787610618
+  screen_date: '2025-06-07'
+- symbol: STX
+  sector: Technology
+  industry: Computer Hardware
+  current_price: 126.97000122070312
+  market_cap: 26945191936
+  three_month_return: 0.4814233375414169
+  volume_ratio: 1.2249407501836986
+  recent_volume: 4568900.0
+  avg_volume: 3729894.690265487
+  screen_date: '2025-06-07'
+- symbol: TJX
+  sector: Consumer Cyclical
+  industry: Apparel Retail
+  current_price: 128.4499969482422
+  market_cap: 143301378048
+  three_month_return: 0.0957170047994652
+  volume_ratio: 0.9276556715270668
+  recent_volume: 5029300.0
+  avg_volume: 5421515.92920354
+  screen_date: '2025-06-07'
+- symbol: TRMB
+  sector: Technology
+  industry: Scientific & Technical Instruments
+  current_price: 72.22000122070312
+  market_cap: 17230753792
+  three_month_return: 0.08585173509357336
+  volume_ratio: 0.8591599185234697
+  recent_volume: 1295620.0
+  avg_volume: 1508007.9646017698
+  screen_date: '2025-06-07'
+- symbol: TSLA
+  sector: Consumer Cyclical
+  industry: Auto Manufacturers
+  current_price: 295.1400146484375
+  market_cap: 950634151936
+  three_month_return: 0.3285618850206425
+  volume_ratio: 1.3863207147838907
+  recent_volume: 147350640.0
+  avg_volume: 106288998.2300885
+  screen_date: '2025-06-07'
+- symbol: TTWO
+  sector: Communication Services
+  industry: Electronic Gaming & Multimedia
+  current_price: 232.72000122070312
+  market_cap: 42561466368
+  three_month_return: 0.15247862953354485
+  volume_ratio: 1.0049621783814864
+  recent_volume: 1979900.0
+  avg_volume: 1970123.8938053097
+  screen_date: '2025-06-07'
+- symbol: UBER
+  sector: Technology
+  industry: Software - Application
+  current_price: 85.5999984741211
+  market_cap: 179004145664
+  three_month_return: 0.1716397664189672
+  volume_ratio: 1.01817292244604
+  recent_volume: 24856260.0
+  avg_volume: 24412611.50442478
+  screen_date: '2025-06-07'
+- symbol: ULTA
+  sector: Consumer Cyclical
+  industry: Specialty Retail
+  current_price: 465.6400146484375
+  market_cap: 20928468992
+  three_month_return: 0.31358609855830966
+  volume_ratio: 0.818679715662482
+  recent_volume: 766340.0
+  avg_volume: 936068.1415929204
+  screen_date: '2025-06-07'
+- symbol: VMC
+  sector: Basic Materials
+  industry: Building Materials
+  current_price: 264.80999755859375
+  market_cap: 34982461440
+  three_month_return: 0.19855636656763984
+  volume_ratio: 0.8462481636976724
+  recent_volume: 868160.0
+  avg_volume: 1025892.9203539822
+  screen_date: '2025-06-07'
+- symbol: VRSK
+  sector: Industrials
+  industry: Consulting Services
+  current_price: 319.6000061035156
+  market_cap: 44706926592
+  three_month_return: 0.07415295981357346
+  volume_ratio: 0.8890734202029399
+  recent_volume: 744920.0
+  avg_volume: 837861.0619469027
+  screen_date: '2025-06-07'
+- symbol: VRSN
+  sector: Technology
+  industry: Software - Infrastructure
+  current_price: 285.0199890136719
+  market_cap: 26763376640
+  three_month_return: 0.19570421234664473
+  volume_ratio: 0.8163278218715397
+  recent_volume: 698760.0
+  avg_volume: 855979.6460176992
+  screen_date: '2025-06-07'
+- symbol: WFC
+  sector: Financial Services
+  industry: Banks - Diversified
+  current_price: 76.33000183105469
+  market_cap: 248391565312
+  three_month_return: 0.1492777501889956
+  volume_ratio: 0.9893283293412223
+  recent_volume: 17026900.0
+  avg_volume: 17210565.486725662
+  screen_date: '2025-06-07'
+- symbol: WMB
+  sector: Energy
+  industry: Oil & Gas Midstream
+  current_price: 60.560001373291016
+  market_cap: 73944367104
+  three_month_return: 0.13113336913909285
+  volume_ratio: 1.043804756211049
+  recent_volume: 7819740.0
+  avg_volume: 7491573.451327434
+  screen_date: '2025-06-07'

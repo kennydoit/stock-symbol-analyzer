@@ -1,0 +1,8 @@
+# Import necessary libraries
+import pandas as pd
+import yfinance as yf
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)

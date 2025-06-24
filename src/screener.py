@@ -1,68 +1,89 @@
 import yfinance as yf
 import pandas as pd
 import yaml
+import os
 from typing import List, Dict, Optional
 from datetime import datetime, timedelta
-import os
 import time
 
+from pathlib import Path
+
 class StockScreener:
-    def __init__(self):
+    def __init__(self, config_path: str = None):
+        if config_path is None:
+            # Always resolve relative to project root
+            config_path = str(Path(__file__).resolve().parent.parent / "config.yaml")
+        with open(config_path, 'r') as f:
+            self.config = yaml.safe_load(f)
+        self.custom_symbols = self.config['symbol_sources']['custom_symbols']
         self.results = {}
     
+    def get_custom_symbol_data(self, validated_symbols: List[Dict]) -> List[Dict]:
+        """Get data for custom symbols from the validated universe"""
+        custom_data = []
+        validated_symbol_map = {s['symbol']: s for s in validated_symbols}
+        
+        for symbol in self.custom_symbols:
+            if symbol in validated_symbol_map:
+                custom_data.append(validated_symbol_map[symbol])
+            else:
+                print(f"Warning: Custom symbol {symbol} not found in validated universe")
+        
+        return custom_data
+    
     def momentum_screen(self, symbols: List[Dict], min_return_3m: float = 0.15, min_volume_ratio: float = 1.5) -> List[Dict]:
-        """
-        Screen for momentum stocks based on price performance and volume
-        
-        Args:
-            symbols: List of validated symbol dictionaries
-            min_return_3m: Minimum 3-month return (0.15 = 15%)
-            min_volume_ratio: Minimum volume ratio vs average (1.5 = 50% above average)
-        
-        Returns:
-            List of stocks meeting momentum criteria
-        """
+        """Screen for momentum stocks + force-include custom symbols"""
         print(f"Screening {len(symbols)} symbols for momentum...")
+        
+        # Run normal momentum screening
         momentum_stocks = []
+        custom_symbol_names = set(self.custom_symbols)
         
         for i, symbol_data in enumerate(symbols, 1):
             symbol = symbol_data['symbol']
             print(f"Screening {symbol} ({i}/{len(symbols)})")
             
+            # Force include custom symbols
+            if symbol in custom_symbol_names:
+                print(f"  ★ {symbol}: FORCE INCLUDED (custom symbol)")
+                momentum_stock = {
+                    'symbol': symbol,
+                    'sector': symbol_data.get('sector', 'Unknown'),
+                    'industry': symbol_data.get('industry', 'Unknown'),
+                    'current_price': symbol_data.get('current_price', 0),
+                    'market_cap': symbol_data.get('market_cap', 0),
+                    'screen_date': datetime.now().strftime('%Y-%m-%d'),
+                    'inclusion_reason': 'custom_symbol'
+                }
+                momentum_stocks.append(momentum_stock)
+                continue
+            
+            # Regular momentum screening logic for non-custom symbols
             try:
                 ticker = yf.Ticker(symbol)
-                
-                # Get 6 months of data for momentum analysis
                 hist = ticker.history(period="6mo")
                 
-                if len(hist) < 60:  # Need at least ~3 months of data
+                if len(hist) < 60:
                     print(f"  ✗ {symbol}: Insufficient data for momentum analysis")
                     continue
                 
-                # Calculate 3-month return (more reliable calculation)
-                if len(hist) >= 63:  # ~3 months of trading days
+                # Calculate returns and volume ratios (existing logic)
+                if len(hist) >= 63:
                     current_price = hist['Close'].iloc[-1]
                     three_month_price = hist['Close'].iloc[-63]
                     three_month_return = (current_price - three_month_price) / three_month_price
                 else:
-                    # Use available data if less than 3 months
                     current_price = hist['Close'].iloc[-1]
                     start_price = hist['Close'].iloc[0]
                     three_month_return = (current_price - start_price) / start_price
                 
-                # Fix volume calculation - compare recent vs longer-term average
                 if len(hist) >= 20:
-                    recent_volume = hist['Volume'].tail(5).mean()  # Last 5 days average
-                    longer_term_volume = hist['Volume'].iloc[:-10].mean()  # Exclude last 10 days for comparison
-                    
-                    if longer_term_volume > 0:
-                        volume_ratio = recent_volume / longer_term_volume
-                    else:
-                        volume_ratio = 1.0  # Neutral if no historical data
+                    recent_volume = hist['Volume'].tail(5).mean()
+                    longer_term_volume = hist['Volume'].iloc[:-10].mean()
+                    volume_ratio = recent_volume / longer_term_volume if longer_term_volume > 0 else 1.0
                 else:
-                    volume_ratio = 1.0  # Not enough data for volume comparison
+                    volume_ratio = 1.0
                 
-                # Apply screening criteria
                 passes_return = three_month_return >= min_return_3m
                 passes_volume = volume_ratio >= min_volume_ratio
                 
@@ -77,9 +98,8 @@ class StockScreener:
                         'market_cap': symbol_data.get('market_cap', 0),
                         'three_month_return': float(three_month_return),
                         'volume_ratio': float(volume_ratio),
-                        'recent_volume': float(recent_volume) if len(hist) >= 20 else 0,
-                        'avg_volume': float(longer_term_volume) if len(hist) >= 20 else 0,
-                        'screen_date': datetime.now().strftime('%Y-%m-%d')
+                        'screen_date': datetime.now().strftime('%Y-%m-%d'),
+                        'inclusion_reason': 'passed_momentum_screen'
                     }
                     momentum_stocks.append(momentum_stock)
                     print(f"  ✓ {symbol}: PASSED momentum screen")
@@ -95,10 +115,17 @@ class StockScreener:
                 print(f"  ✗ {symbol}: Error - {str(e)}")
                 continue
             
-            # Rate limiting
             time.sleep(0.05)
         
-        print(f"\nMomentum screening complete: {len(momentum_stocks)} stocks found")
+        # Count custom vs screened
+        custom_count = sum(1 for s in momentum_stocks if s.get('inclusion_reason') == 'custom_symbol')
+        screened_count = len(momentum_stocks) - custom_count
+        
+        print(f"\nMomentum screening complete:")
+        print(f"  Passed screening: {screened_count} stocks")
+        print(f"  Force-included custom: {custom_count} stocks")
+        print(f"  Total: {len(momentum_stocks)} stocks")
+        
         return momentum_stocks
     
     def relaxed_momentum_screen(self, symbols: List[Dict], min_return_3m: float = 0.05, min_volume_ratio: float = 0.8) -> List[Dict]:
@@ -168,20 +195,31 @@ class StockScreener:
         return value_stocks
     
     def realistic_value_screen(self, symbols: List[Dict]) -> List[Dict]:
-        """
-        More realistic value screen for S&P 500 stocks
-        """
+        """Realistic value screen + force-include custom symbols"""
         print(f"Running realistic value screen on {len(symbols)} symbols...")
         value_stocks = []
-        
-        # Track statistics
-        pe_ratios = []
-        dividend_yields = []
+        custom_symbol_names = set(self.custom_symbols)
         
         for i, symbol_data in enumerate(symbols, 1):
             symbol = symbol_data['symbol']
             print(f"Screening {symbol} ({i}/{len(symbols)})")
             
+            # Force include custom symbols
+            if symbol in custom_symbol_names:
+                print(f"  ★ {symbol}: FORCE INCLUDED (custom symbol)")
+                value_stock = {
+                    'symbol': symbol,
+                    'sector': symbol_data.get('sector', 'Unknown'),
+                    'industry': symbol_data.get('industry', 'Unknown'),
+                    'current_price': symbol_data.get('current_price', 0),
+                    'market_cap': symbol_data.get('market_cap', 0),
+                    'screen_date': datetime.now().strftime('%Y-%m-%d'),
+                    'inclusion_reason': 'custom_symbol'
+                }
+                value_stocks.append(value_stock)
+                continue
+            
+            # Regular value screening logic (existing code)
             try:
                 ticker = yf.Ticker(symbol)
                 info = ticker.info
@@ -189,15 +227,8 @@ class StockScreener:
                 pe_ratio = info.get('trailingPE', None)
                 dividend_yield = info.get('dividendYield', 0) or 0
                 
-                # Collect statistics
-                if pe_ratio is not None and pe_ratio > 0:
-                    pe_ratios.append(pe_ratio)
-                if dividend_yield > 0:
-                    dividend_yields.append(dividend_yield)
-                
-                # Very inclusive criteria - just need valid data
-                has_valid_pe = pe_ratio is not None and pe_ratio > 0 and pe_ratio < 100  # Exclude extreme outliers
-                has_some_dividend = dividend_yield >= 0.005  # 0.5% minimum (very low)
+                has_valid_pe = pe_ratio is not None and pe_ratio > 0 and pe_ratio < 100
+                has_some_dividend = dividend_yield >= 0.005
                 
                 print(f"  📊 {symbol}: P/E {pe_ratio}, Dividend {dividend_yield:.1%}")
                 
@@ -210,7 +241,8 @@ class StockScreener:
                         'market_cap': symbol_data.get('market_cap', 0),
                         'pe_ratio': float(pe_ratio),
                         'dividend_yield': float(dividend_yield),
-                        'screen_date': datetime.now().strftime('%Y-%m-%d')
+                        'screen_date': datetime.now().strftime('%Y-%m-%d'),
+                        'inclusion_reason': 'passed_value_screen'
                     }
                     value_stocks.append(value_stock)
                     print(f"  ✓ {symbol}: PASSED realistic value screen")
@@ -226,15 +258,17 @@ class StockScreener:
                 print(f"  ✗ {symbol}: Error - {str(e)}")
                 continue
             
-            time.sleep(0.02)  # Faster rate limiting
+            time.sleep(0.02)
         
-        # Print statistics
-        if pe_ratios:
-            print(f"\nP/E Statistics: Mean={sum(pe_ratios)/len(pe_ratios):.1f}, Median={sorted(pe_ratios)[len(pe_ratios)//2]:.1f}")
-        if dividend_yields:
-            print(f"Dividend Statistics: Mean={sum(dividend_yields)/len(dividend_yields):.1%}, Median={sorted(dividend_yields)[len(dividend_yields)//2]:.1%}")
+        # Count custom vs screened
+        custom_count = sum(1 for s in value_stocks if s.get('inclusion_reason') == 'custom_symbol')
+        screened_count = len(value_stocks) - custom_count
         
-        print(f"\nRealistic value screening complete: {len(value_stocks)} stocks found")
+        print(f"\nRealistic value screening complete:")
+        print(f"  Passed screening: {screened_count} stocks")
+        print(f"  Force-included custom: {custom_count} stocks") 
+        print(f"  Total: {len(value_stocks)} stocks")
+        
         return value_stocks
     
     def save_results(self, results: List[Dict], screen_name: str, output_dir: str = '../data') -> str:
@@ -265,7 +299,3 @@ if __name__ == "__main__":
         {'symbol': 'MSFT', 'sector': 'Technology', 'market_cap': 2800000000000}
     ]
     
-    screener = StockScreener()
-    # Test with relaxed criteria
-    momentum_results = screener.relaxed_momentum_screen(test_symbols)
-    screener.save_results(momentum_results, 'test_momentum')

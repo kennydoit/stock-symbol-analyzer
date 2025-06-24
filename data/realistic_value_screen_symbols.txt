@@ -1,11 +1,12 @@
-# Realistic Value Stocks - 386 symbols
-# Generated: 2025-06-07 10:23:49
+# Realistic Value Stocks - 395 symbols
+# Generated: 2025-06-24 15:33:24
 
 A
 AAPL
 ABBV
 ABT
 ACN
+ADBE
 ADI
 ADM
 ADP
@@ -24,6 +25,7 @@ AME
 AMGN
 AMP
 AMT
+AMZN
 AON
 AOS
 APA
@@ -179,6 +181,7 @@ HWM
 IBM
 ICE
 IEX
+INTC
 INTU
 INVH
 IP
@@ -254,6 +257,7 @@ NDAQ
 NDSN
 NEE
 NEM
+NFLX
 NI
 NKE
 NOC
@@ -299,6 +303,7 @@ PSA
 PSX
 PWR
 QCOM
+QQQ
 RCL
 REG
 REGN
@@ -322,6 +327,7 @@ SNA
 SO
 SPG
 SPGI
+SPY
 SRE
 STE
 STLD
@@ -349,6 +355,7 @@ TRGP
 TROW
 TRV
 TSCO
+TSLA
 TSN
 TT
 TXN
@@ -367,6 +374,7 @@ VMC
 VRSK
 VRSN
 VST
+VTI
 VZ
 WAB
 WDC
@@ -382,6 +390,7 @@ WST
 WY
 WYNN
 XEL
+XLK
 XOM
 XYL
 YUM

@@ -3,8 +3,14 @@ import os
 from datetime import datetime
 from typing import List, Dict
 
+from pathlib import Path
+
+# Get the directory of the current script
+SCRIPT_DIR = Path(__file__).resolve().parent
+DATA_DIR = SCRIPT_DIR.parent / "data"
+
 class SymbolListGenerator:
-    def __init__(self, data_dir: str = '../data'):
+    def __init__(self, data_dir: Path = DATA_DIR):
         self.data_dir = data_dir
     
     def load_screening_results(self, filename: str) -> Dict:

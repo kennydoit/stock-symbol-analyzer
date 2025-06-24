@@ -25,7 +25,7 @@ valid_symbols:
   currency: USD
 - symbol: ABBV
   market_cap: 335315730432
-  avg_volume: 5777533.665338646
+  avg_volume: 5777532.470119522
   current_price: 189.8300018310547
   data_points: 502
   data_start: '2023-06-07'
@@ -37,7 +37,7 @@ valid_symbols:
   currency: USD
 - symbol: ABNB
   market_cap: 86804832256
-  avg_volume: 5158728.28685259
+  avg_volume: 5158726.09561753
   current_price: 140.63999938964844
   data_points: 502
   data_start: '2023-06-07'
@@ -229,7 +229,7 @@ valid_symbols:
   currency: USD
 - symbol: AKAM
   market_cap: 10964142080
-  avg_volume: 1817439.043824701
+  avg_volume: 1817437.250996016
   current_price: 77.02999877929688
   data_points: 502
   data_start: '2023-06-07'
@@ -373,7 +373,7 @@ valid_symbols:
   currency: USD
 - symbol: AMZN
   market_cap: 2267344535552
-  avg_volume: 45357134.46215139
+  avg_volume: 45356905.37848605
   current_price: 213.57000732421875
   data_points: 502
   data_start: '2023-06-07'
@@ -385,7 +385,7 @@ valid_symbols:
   currency: USD
 - symbol: ANET
   market_cap: 122138222592
-  avg_volume: 9462904.780876495
+  avg_volume: 9462863.545816733
   current_price: 97.25
   data_points: 502
   data_start: '2023-06-07'
@@ -529,7 +529,7 @@ valid_symbols:
   currency: USD
 - symbol: AVGO
   market_cap: 1161052422144
-  avg_volume: 29470108.366533864
+  avg_volume: 29469384.86055777
   current_price: 246.92999267578125
   data_points: 502
   data_start: '2023-06-07'
@@ -565,7 +565,7 @@ valid_symbols:
   currency: USD
 - symbol: AXON
   market_cap: 61646155776
-  avg_volume: 624295.4183266932
+  avg_volume: 624292.2310756972
   current_price: 791.8499755859375
   data_points: 502
   data_start: '2023-06-07'
@@ -745,7 +745,7 @@ valid_symbols:
   currency: USD
 - symbol: BLDR
   market_cap: 12336789504
-  avg_volume: 1689024.9003984064
+  avg_volume: 1689023.5059760956
   current_price: 111.62999725341797
   data_points: 502
   data_start: '2023-06-07'
@@ -877,7 +877,7 @@ valid_symbols:
   currency: USD
 - symbol: CARR
   market_cap: 60903305216
-  avg_volume: 4676899.402390438
+  avg_volume: 4676888.247011952
   current_price: 71.04000091552734
   data_points: 502
   data_start: '2023-06-07'
@@ -985,7 +985,7 @@ valid_symbols:
   currency: USD
 - symbol: CEG
   market_cap: 93648994304
-  avg_volume: 2935951.9920318727
+  avg_volume: 2935942.828685259
   current_price: 298.79998779296875
   data_points: 502
   data_start: '2023-06-07'
@@ -1129,7 +1129,7 @@ valid_symbols:
   currency: USD
 - symbol: CMG
   market_cap: 70736396288
-  avg_volume: 12835053.585657371
+  avg_volume: 12835044.621513944
   current_price: 52.5
   data_points: 502
   data_start: '2023-06-07'
@@ -1201,7 +1201,7 @@ valid_symbols:
   currency: USD
 - symbol: COIN
   market_cap: 63999725568
-  avg_volume: 11093607.17131474
+  avg_volume: 11093517.131474104
   current_price: 251.27000427246094
   data_points: 502
   data_start: '2023-06-07'
@@ -1321,7 +1321,7 @@ valid_symbols:
   currency: USD
 - symbol: CRM
   market_cap: 262431571968
-  avg_volume: 6269658.7649402395
+  avg_volume: 6269650.398406374
   current_price: 274.510009765625
   data_points: 502
   data_start: '2023-06-07'
@@ -1333,7 +1333,7 @@ valid_symbols:
   currency: USD
 - symbol: CRWD
   market_cap: 116750254080
-  avg_volume: 4251863.74501992
+  avg_volume: 4251842.8286852585
   current_price: 468.4100036621094
   data_points: 502
   data_start: '2023-06-07'
@@ -1477,7 +1477,7 @@ valid_symbols:
   currency: USD
 - symbol: DAL
   market_cap: 33267957760
-  avg_volume: 9768346.613545816
+  avg_volume: 9768341.035856573
   current_price: 50.95000076293945
   data_points: 502
   data_start: '2023-06-07'
@@ -1489,7 +1489,7 @@ valid_symbols:
   currency: USD
 - symbol: DASH
   market_cap: 92566872064
-  avg_volume: 4023062.3505976098
+  avg_volume: 4023059.760956175
   current_price: 218.4499969482422
   data_points: 502
   data_start: '2023-06-07'
@@ -1549,7 +1549,7 @@ valid_symbols:
   currency: USD
 - symbol: DELL
   market_cap: 77745627136
-  avg_volume: 8012372.50996016
+  avg_volume: 8012332.868525896
   current_price: 113.75
   data_points: 502
   data_start: '2023-06-07'
@@ -1561,7 +1561,7 @@ valid_symbols:
   currency: USD
 - symbol: DG
   market_cap: 24973658112
-  avg_volume: 3558388.844621514
+  avg_volume: 3558384.860557769
   current_price: 113.4800033569336
   data_points: 502
   data_start: '2023-06-07'
@@ -1669,7 +1669,7 @@ valid_symbols:
   currency: USD
 - symbol: DOW
   market_cap: 20180910080
-  avg_volume: 5592573.90438247
+  avg_volume: 5592561.9521912355
   current_price: 28.549999237060547
   data_points: 502
   data_start: '2023-06-07'
@@ -1897,7 +1897,7 @@ valid_symbols:
   currency: USD
 - symbol: ENPH
   market_cap: 5403104256
-  avg_volume: 4413649.402390438
+  avg_volume: 4413638.0478087645
   current_price: 41.18000030517578
   data_points: 502
   data_start: '2023-06-07'
@@ -2125,7 +2125,7 @@ valid_symbols:
   currency: USD
 - symbol: FANG
   market_cap: 41067134976
-  avg_volume: 1993566.733067729
+  avg_volume: 1993563.545816733
   current_price: 140.55999755859375
   data_points: 502
   data_start: '2023-06-07'
@@ -2269,7 +2269,7 @@ valid_symbols:
   currency: USD
 - symbol: FOXA
   market_cap: 23366756352
-  avg_volume: 3582896.4143426293
+  avg_volume: 3582862.151394422
   current_price: 54.369998931884766
   data_points: 502
   data_start: '2023-06-07'
@@ -2293,7 +2293,7 @@ valid_symbols:
   currency: USD
 - symbol: FSLR
   market_cap: 17840039936
-  avg_volume: 2656755.577689243
+  avg_volume: 2656748.207171315
   current_price: 166.35000610351562
   data_points: 502
   data_start: '2023-06-07'
@@ -2389,7 +2389,7 @@ valid_symbols:
   currency: USD
 - symbol: GEV
   market_cap: 132373479424
-  avg_volume: 3583924.4966442953
+  avg_volume: 3583908.389261745
   current_price: 485.0
   data_points: 298
   data_start: '2024-04-01'
@@ -2449,7 +2449,7 @@ valid_symbols:
   currency: USD
 - symbol: GM
   market_cap: 45639319552
-  avg_volume: 14636721.314741036
+  avg_volume: 14636718.525896415
   current_price: 47.470001220703125
   data_points: 502
   data_start: '2023-06-07'
@@ -2473,7 +2473,7 @@ valid_symbols:
   currency: USD
 - symbol: GOOG
   market_cap: 2114328068096
-  avg_volume: 21240385.856573705
+  avg_volume: 21240291.23505976
   current_price: 174.9199981689453
   data_points: 502
   data_start: '2023-06-07'
@@ -2485,7 +2485,7 @@ valid_symbols:
   currency: USD
 - symbol: GOOGL
   market_cap: 2114328199168
-  avg_volume: 29687938.247011952
+  avg_volume: 29687807.768924303
   current_price: 173.67999267578125
   data_points: 502
   data_start: '2023-06-07'
@@ -2689,7 +2689,7 @@ valid_symbols:
   currency: USD
 - symbol: HPE
   market_cap: 23764305920
-  avg_volume: 14919719.721115537
+  avg_volume: 14919713.74501992
   current_price: 18.110000610351562
   data_points: 502
   data_start: '2023-06-07'
@@ -2893,7 +2893,7 @@ valid_symbols:
   currency: USD
 - symbol: INVH
   market_cap: 20343775232
-  avg_volume: 3176267.131474104
+  avg_volume: 3176264.741035857
   current_price: 33.189998626708984
   data_points: 502
   data_start: '2023-06-07'
@@ -2929,7 +2929,7 @@ valid_symbols:
   currency: USD
 - symbol: IQV
   market_cap: 26351362048
-  avg_volume: 1331087.450199203
+  avg_volume: 1330898.2071713146
   current_price: 152.32000732421875
   data_points: 502
   data_start: '2023-06-07'
@@ -3157,7 +3157,7 @@ valid_symbols:
   currency: USD
 - symbol: KHC
   market_cap: 31636023296
-  avg_volume: 8713730.677290836
+  avg_volume: 8713720.717131475
   current_price: 26.729999542236328
   data_points: 502
   data_start: '2023-06-07'
@@ -3181,7 +3181,7 @@ valid_symbols:
   currency: USD
 - symbol: KKR
   market_cap: 114170912768
-  avg_volume: 4245527.49003984
+  avg_volume: 4245526.494023904
   current_price: 123.4000015258789
   data_points: 502
   data_start: '2023-06-07'
@@ -3265,7 +3265,7 @@ valid_symbols:
   currency: USD
 - symbol: KVUE
   market_cap: 41719644160
-  avg_volume: 20138563.14741036
+  avg_volume: 20138554.581673305
   current_price: 21.729999542236328
   data_points: 502
   data_start: '2023-06-07'
@@ -3433,7 +3433,7 @@ valid_symbols:
   currency: USD
 - symbol: LULU
   market_cap: 31792873472
-  avg_volume: 2000594.2231075696
+  avg_volume: 2000162.9482071714
   current_price: 265.2699890136719
   data_points: 502
   data_start: '2023-06-07'
@@ -3457,7 +3457,7 @@ valid_symbols:
   currency: USD
 - symbol: LVS
   market_cap: 28420577280
-  avg_volume: 5470768.3266932275
+  avg_volume: 5470766.334661354
   current_price: 40.220001220703125
   data_points: 502
   data_start: '2023-06-07'
@@ -3637,7 +3637,7 @@ valid_symbols:
   currency: USD
 - symbol: META
   market_cap: 1754273284096
-  avg_volume: 16959157.768924303
+  avg_volume: 16959083.665338647
   current_price: 697.7100219726562
   data_points: 502
   data_start: '2023-06-07'
@@ -3781,7 +3781,7 @@ valid_symbols:
   currency: USD
 - symbol: MPC
   market_cap: 49191108608
-  avg_volume: 2862730.677290837
+  avg_volume: 2862729.282868526
   current_price: 160.1199951171875
   data_points: 502
   data_start: '2023-06-07'
@@ -3817,7 +3817,7 @@ valid_symbols:
   currency: USD
 - symbol: MRNA
   market_cap: 10619935744
-  avg_volume: 6230682.470119522
+  avg_volume: 6230637.450199204
   current_price: 27.459999084472656
   data_points: 502
   data_start: '2023-06-07'
@@ -3925,7 +3925,7 @@ valid_symbols:
   currency: USD
 - symbol: NCLH
   market_cap: 8739545088
-  avg_volume: 13227825.697211156
+  avg_volume: 13227754.183266932
   current_price: 19.559999465942383
   data_points: 502
   data_start: '2023-06-07'
@@ -3985,7 +3985,7 @@ valid_symbols:
   currency: USD
 - symbol: NFLX
   market_cap: 528333635584
-  avg_volume: 4389291.035856574
+  avg_volume: 4389281.87250996
   current_price: 1241.469970703125
   data_points: 502
   data_start: '2023-06-07'
@@ -4033,7 +4033,7 @@ valid_symbols:
   currency: USD
 - symbol: NOW
   market_cap: 213410054144
-  avg_volume: 1349898.6055776891
+  avg_volume: 1349894.8207171315
   current_price: 1030.2099609375
   data_points: 502
   data_start: '2023-06-07'
@@ -4105,7 +4105,7 @@ valid_symbols:
   currency: USD
 - symbol: NVDA
   market_cap: 3456210829312
-  avg_volume: 379997451.5936255
+  avg_volume: 379995433.8645418
   current_price: 141.72000122070312
   data_points: 502
   data_start: '2023-06-07'
@@ -4201,7 +4201,7 @@ valid_symbols:
   currency: USD
 - symbol: 'ON'
   market_cap: 20965289984
-  avg_volume: 7351954.980079682
+  avg_volume: 7351944.023904382
   current_price: 50.16999816894531
   data_points: 502
   data_start: '2023-06-07'
@@ -4261,7 +4261,7 @@ valid_symbols:
   currency: USD
 - symbol: PANW
   market_cap: 133093285888
-  avg_volume: 7617477.091633466
+  avg_volume: 7617467.33067729
   current_price: 199.60000610351562
   data_points: 502
   data_start: '2023-06-07'
@@ -4453,7 +4453,7 @@ valid_symbols:
   currency: USD
 - symbol: PLTR
   market_cap: 301407698944
-  avg_volume: 71009295.21912351
+  avg_volume: 71006939.0438247
   current_price: 127.72000122070312
   data_points: 502
   data_start: '2023-06-07'
@@ -4621,7 +4621,7 @@ valid_symbols:
   currency: USD
 - symbol: PYPL
   market_cap: 71413096448
-  avg_volume: 13369794.023904383
+  avg_volume: 13369789.243027888
   current_price: 73.43000030517578
   data_points: 502
   data_start: '2023-06-07'
@@ -4642,6 +4642,18 @@ valid_symbols:
   industry: Semiconductors
   country: United States
   exchange: NMS
+  currency: USD
+- symbol: QQQ
+  market_cap: 208311549952
+  avg_volume: 42526249.003984064
+  current_price: 529.9199829101562
+  data_points: 502
+  data_start: '2023-06-07'
+  data_end: '2025-06-06'
+  sector: Unknown
+  industry: Unknown
+  country: Unknown
+  exchange: NGM
   currency: USD
 - symbol: RCL
   market_cap: 75042889728
@@ -4885,7 +4897,7 @@ valid_symbols:
   currency: USD
 - symbol: SMCI
   market_cap: 24797786112
-  avg_volume: 63749267.1314741
+  avg_volume: 63748744.422310755
   current_price: 41.54999923706055
   data_points: 502
   data_start: '2023-06-07'
@@ -4966,6 +4978,18 @@ valid_symbols:
   industry: Financial Data & Stock Exchanges
   country: United States
   exchange: NYQ
+  currency: USD
+- symbol: SPY
+  market_cap: 549879939072
+  avg_volume: 65961440.637450196
+  current_price: 599.1400146484375
+  data_points: 502
+  data_start: '2023-06-07'
+  data_end: '2025-06-06'
+  sector: Unknown
+  industry: Unknown
+  country: Unknown
+  exchange: PCX
   currency: USD
 - symbol: SRE
   market_cap: 50119262208
@@ -5353,7 +5377,7 @@ valid_symbols:
   currency: USD
 - symbol: TSLA
   market_cap: 950634151936
-  avg_volume: 106174512.3505976
+  avg_volume: 106163916.93227091
   current_price: 295.1400146484375
   data_points: 502
   data_start: '2023-06-07'
@@ -5437,7 +5461,7 @@ valid_symbols:
   currency: USD
 - symbol: UAL
   market_cap: 27509602304
-  avg_volume: 7822764.940239044
+  avg_volume: 7822756.972111554
   current_price: 84.2300033569336
   data_points: 502
   data_start: '2023-06-07'
@@ -5449,7 +5473,7 @@ valid_symbols:
   currency: USD
 - symbol: UBER
   market_cap: 179004145664
-  avg_volume: 21680132.47011952
+  avg_volume: 21680055.17928287
   current_price: 85.5999984741211
   data_points: 502
   data_start: '2023-06-07'
@@ -5557,7 +5581,7 @@ valid_symbols:
   currency: USD
 - symbol: V
   market_cap: 709219385344
-  avg_volume: 6510245.418326694
+  avg_volume: 6510240.039840638
   current_price: 370.2200012207031
   data_points: 502
   data_start: '2023-06-07'
@@ -5653,7 +5677,7 @@ valid_symbols:
   currency: USD
 - symbol: VST
   market_cap: 58914820096
-  avg_volume: 6311127.290836654
+  avg_volume: 6311107.1713147415
   current_price: 173.6199951171875
   data_points: 502
   data_start: '2023-06-07'
@@ -5662,6 +5686,18 @@ valid_symbols:
   industry: Utilities - Independent Power Producers
   country: United States
   exchange: NYQ
+  currency: USD
+- symbol: VTI
+  market_cap: 611996270592
+  avg_volume: 3260444.0239043823
+  current_price: 295.1199951171875
+  data_points: 502
+  data_start: '2023-06-07'
+  data_end: '2025-06-06'
+  sector: Unknown
+  industry: Unknown
+  country: Unknown
+  exchange: PCX
   currency: USD
 - symbol: VTR
   market_cap: 28720603136
@@ -5737,7 +5773,7 @@ valid_symbols:
   currency: USD
 - symbol: WBD
   market_cap: 24295366656
-  avg_volume: 29077898.007968128
+  avg_volume: 29077871.11553785
   current_price: 9.819999694824219
   data_points: 502
   data_start: '2023-06-07'
@@ -5905,7 +5941,7 @@ valid_symbols:
   currency: USD
 - symbol: WYNN
   market_cap: 8709348352
-  avg_volume: 2257425.498007968
+  avg_volume: 2257420.119521912
   current_price: 83.30000305175781
   data_points: 502
   data_start: '2023-06-07'
@@ -5926,6 +5962,18 @@ valid_symbols:
   industry: Utilities - Regulated Electric
   country: United States
   exchange: NMS
+  currency: USD
+- symbol: XLK
+  market_cap: 64847269888
+  avg_volume: 5828417.729083666
+  current_price: 238.36000061035156
+  data_points: 502
+  data_start: '2023-06-07'
+  data_end: '2025-06-06'
+  sector: Unknown
+  industry: Unknown
+  country: Unknown
+  exchange: PCX
   currency: USD
 - symbol: XOM
   market_cap: 449366163456
@@ -6013,7 +6061,7 @@ invalid_symbols:
   - 'Average volume too low: 21,457'
   data_points: 502
 summary:
-  total_tested: 503
-  valid_count: 500
+  total_tested: 507
+  valid_count: 504
   invalid_count: 3
-  validation_date: '2025-06-07T09:47:39.836831'
+  validation_date: '2025-06-08T10:32:36.532938'

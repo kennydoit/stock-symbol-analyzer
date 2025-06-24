@@ -1,6 +1,6 @@
 screen_name: Realistic Value Stocks
-created_date: '2025-06-07T10:23:49.412776'
-total_symbols: 386
+created_date: '2025-06-24T15:33:24.961309'
+total_symbols: 395
 symbols:
 - symbol: A
   sector: Healthcare
@@ -12,8 +12,6 @@ symbols:
   sector: Technology
   market_cap: 3045708267520
   current_price: 203.9199981689453
-  pe_ratio: 31.763239
-  dividend_yield: 0.51
 - symbol: ABBV
   sector: Healthcare
   market_cap: 335315730432
@@ -32,6 +30,10 @@ symbols:
   current_price: 317.6499938964844
   pe_ratio: 26.18714
   dividend_yield: 1.86
+- symbol: ADBE
+  sector: Technology
+  market_cap: 177691312128
+  current_price: 416.9200134277344
 - symbol: ADI
   sector: Technology
   market_cap: 110296080384
@@ -140,6 +142,10 @@ symbols:
   current_price: 212.5399932861328
   pe_ratio: 34.391586
   dividend_yield: 3.2
+- symbol: AMZN
+  sector: Consumer Cyclical
+  market_cap: 2267344535552
+  current_price: 213.57000732421875
 - symbol: AON
   sector: Financial Services
   market_cap: 80133177344
@@ -468,8 +474,6 @@ symbols:
   sector: Technology
   market_cap: 262431571968
   current_price: 274.510009765625
-  pe_ratio: 42.89219
-  dividend_yield: 0.61
 - symbol: CSCO
   sector: Technology
   market_cap: 261597593600
@@ -727,7 +731,7 @@ symbols:
   market_cap: 129696391168
   current_price: 331.45001220703125
   pe_ratio: 33.446014
-  dividend_yield: 1.27
+  dividend_yield: 1.26
 - symbol: ETR
   sector: Utilities
   market_cap: 36666421248
@@ -912,8 +916,6 @@ symbols:
   sector: Communication Services
   market_cap: 2114328199168
   current_price: 173.67999267578125
-  pe_ratio: 19.383928
-  dividend_yield: 0.48
 - symbol: GPC
   sector: Consumer Cyclical
   market_cap: 17386223616
@@ -1056,8 +1058,6 @@ symbols:
   sector: Technology
   market_cap: 249886965760
   current_price: 268.8699951171875
-  pe_ratio: 45.88225
-  dividend_yield: 2.5
 - symbol: ICE
   sector: Financial Services
   market_cap: 102495485952
@@ -1070,6 +1070,10 @@ symbols:
   current_price: 183.30999755859375
   pe_ratio: 29.050713
   dividend_yield: 1.55
+- symbol: INTC
+  sector: Technology
+  market_cap: 87501717504
+  current_price: 20.059999465942383
 - symbol: INTU
   sector: Technology
   market_cap: 215229939712
@@ -1392,8 +1396,6 @@ symbols:
   sector: Communication Services
   market_cap: 1754273284096
   current_price: 697.7100219726562
-  pe_ratio: 27.243654
-  dividend_yield: 0.3
 - symbol: MKC
   sector: Consumer Defensive
   market_cap: 19904106496
@@ -1470,8 +1472,6 @@ symbols:
   sector: Technology
   market_cap: 3496118321152
   current_price: 470.3800048828125
-  pe_ratio: 36.350853
-  dividend_yield: 0.71
 - symbol: MSI
   sector: Technology
   market_cap: 69757534208
@@ -1520,6 +1520,10 @@ symbols:
   current_price: 52.36000061035156
   pe_ratio: 11.927108
   dividend_yield: 1.91
+- symbol: NFLX
+  sector: Communication Services
+  market_cap: 528333635584
+  current_price: 1241.469970703125
 - symbol: NI
   sector: Utilities
   market_cap: 18489212928
@@ -1572,8 +1576,6 @@ symbols:
   sector: Technology
   market_cap: 3456210829312
   current_price: 141.72000122070312
-  pe_ratio: 45.71613
-  dividend_yield: 0.03
 - symbol: NWS
   sector: Communication Services
   market_cap: 16494446592
@@ -1790,6 +1792,10 @@ symbols:
   current_price: 149.24000549316406
   pe_ratio: 15.213048
   dividend_yield: 2.39
+- symbol: QQQ
+  sector: Unknown
+  market_cap: 208311549952
+  current_price: 529.9199829101562
 - symbol: RCL
   sector: Consumer Cyclical
   market_cap: 75042889728
@@ -1928,6 +1934,10 @@ symbols:
   current_price: 519.3599853515625
   pe_ratio: 40.830185
   dividend_yield: 0.74
+- symbol: SPY
+  sector: Unknown
+  market_cap: 549879939072
+  current_price: 599.1400146484375
 - symbol: SRE
   sector: Utilities
   market_cap: 50119262208
@@ -1975,7 +1985,7 @@ symbols:
   market_cap: 10747734016
   current_price: 71.58999633789062
   pe_ratio: 27.964844
-  dividend_yield: 4.06
+  dividend_yield: 3.91
 - symbol: SYF
   sector: Financial Services
   market_cap: 22542508032
@@ -2090,6 +2100,10 @@ symbols:
   current_price: 50.939998626708984
   pe_ratio: 25.343283
   dividend_yield: 1.81
+- symbol: TSLA
+  sector: Consumer Cyclical
+  market_cap: 950634151936
+  current_price: 295.1400146484375
 - symbol: TSN
   sector: Consumer Defensive
   market_cap: 19703302144
@@ -2198,6 +2212,10 @@ symbols:
   current_price: 173.6199951171875
   pe_ratio: 27.55873
   dividend_yield: 0.52
+- symbol: VTI
+  sector: Unknown
+  market_cap: 611996270592
+  current_price: 295.1199951171875
 - symbol: VZ
   sector: Communication Services
   market_cap: 184671748096
@@ -2288,6 +2306,10 @@ symbols:
   current_price: 68.51000213623047
   pe_ratio: 20.15
   dividend_yield: 3.33
+- symbol: XLK
+  sector: Unknown
+  market_cap: 64847269888
+  current_price: 238.36000061035156
 - symbol: XOM
   sector: Energy
   market_cap: 449366163456

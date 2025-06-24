@@ -8,13 +8,22 @@ symbol_sources:
   # Custom symbol lists
   custom_symbols:
     - "AAPL"
-    - "GOOGL"
-    - "MSFT"
+    - "ADBE"
     - "AMZN"
-    - "TSLA"
-    - "NVDA"
+    - "CRM"
+    - "GOOGL"
+    - "IBM"
+    - "INTC"
     - "META"
+    - "MSFT"
     - "NFLX"
+    - "NVDA"
+    - "TSLA"
+    - "SPY"
+    - "QQQ"
+    - "XLK"
+    - "VTI"
+
 
 # Validation settings
 validation:

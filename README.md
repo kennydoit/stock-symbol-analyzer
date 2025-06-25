@@ -92,7 +92,7 @@ python symbol_list_generator.py
 3. **Run Screening Strategies**
    ```bash
    cd workflows
-   python screening_workflow.py
+   python stock_screener.py
    ```
    
    **Output**: Three screening result files in `data/`:
@@ -102,7 +102,7 @@ python symbol_list_generator.py
 
 4. **Generate Clean Symbol Lists**
    ```bash
-   cd src
+   cd scripts
    python symbol_list_generator.py
    ```
    

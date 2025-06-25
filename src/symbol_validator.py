@@ -5,12 +5,16 @@ from typing import List, Dict, Set
 import time
 from datetime import datetime, timedelta
 import os
+from pathlib import Path
 
 class SymbolValidator:
-    def __init__(self, config_path: str):
-        with open(config_path, 'r') as file:
-            self.config = yaml.safe_load(file)
-    
+    def __init__(self, config_path: str = None):
+        if config_path is None:
+            # Always resolve relative to project root
+            config_path = str(Path(__file__).resolve().parent.parent / "config.yaml")
+        with open(config_path, 'r') as f:
+            self.config = yaml.safe_load(f)
+
     def get_sp500_symbols(self) -> List[str]:
         """Fetch S&P 500 symbols from Wikipedia"""
         try:
@@ -155,7 +159,8 @@ class SymbolValidator:
         }
 
 def main():
-    validator = SymbolValidator('../config/symbols_config.yaml')
+    config_path = str(Path(__file__).resolve().parent.parent / "config.yaml")
+    validator = SymbolValidator(config_path)
     universe = validator.build_symbol_universe()
     
     print(f"\nValidation Summary:")

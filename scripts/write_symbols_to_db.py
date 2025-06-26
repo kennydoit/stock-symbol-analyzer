@@ -25,8 +25,11 @@ VALIDATED_SYMBOLS_PATH = project_root / "stock-symbol-screener/data" / "validate
 print(f"Using validated symbols path: {VALIDATED_SYMBOLS_PATH}")
 
 def create_symbols_table(conn):
-    create_table_sql = """
-    CREATE TABLE IF NOT EXISTS symbols (
+    # Using executescript() to handle multiple statements
+    conn.executescript("""
+    DROP TABLE IF EXISTS symbols;
+    
+    CREATE TABLE symbols (
         symbol_id INTEGER PRIMARY KEY AUTOINCREMENT,
         symbol VARCHAR(10) NOT NULL UNIQUE,
         name VARCHAR(255),
@@ -39,8 +42,7 @@ def create_symbols_table(conn):
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
-    """
-    conn.execute(create_table_sql)
+    """)
     conn.commit()
 
 def load_validated_symbols():

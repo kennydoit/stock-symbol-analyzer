@@ -9,18 +9,6 @@ symbol_sources:
   
   # Custom symbol lists
   custom_symbols:
-    - "AAPL"
-    - "ADBE"
-    - "AMZN"
-    - "CRM"
-    - "GOOGL"
-    - "IBM"
-    - "INTC"
-    - "META"
-    - "MSFT"
-    - "NFLX"
-    - "NVDA"
-    - "TSLA"
     - "SPY"
     - "QQQ"
     - "XLK"

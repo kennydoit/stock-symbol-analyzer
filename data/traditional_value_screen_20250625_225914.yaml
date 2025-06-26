@@ -1,0 +1,988 @@
+screen_name: traditional_value_screen
+screen_date: '2025-06-25T22:59:14.498352'
+total_results: 123
+results:
+- symbol: ABT
+  sector: Healthcare
+  industry: Medical Devices
+  current_price: 137.39999389648438
+  market_cap: 239054012416
+  pe_ratio: 17.86736
+  dividend_yield: 1.72
+  screen_date: '2025-06-25'
+- symbol: ADM
+  sector: Consumer Defensive
+  industry: Farm Products
+  current_price: 52.29999923706055
+  market_cap: 25430194176
+  pe_ratio: 18.415493
+  dividend_yield: 3.9
+  screen_date: '2025-06-25'
+- symbol: AEP
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 101.41000366210938
+  market_cap: 55171706880
+  pe_ratio: 19.57722
+  dividend_yield: 3.67
+  screen_date: '2025-06-25'
+- symbol: AES
+  sector: Utilities
+  industry: Utilities - Diversified
+  current_price: 10.5
+  market_cap: 7475191808
+  pe_ratio: 5.7065215
+  dividend_yield: 6.64
+  screen_date: '2025-06-25'
+- symbol: AFL
+  sector: Financial Services
+  industry: Insurance - Life
+  current_price: 102.4800033569336
+  market_cap: 56313577472
+  pe_ratio: 15.937793
+  dividend_yield: 2.26
+  screen_date: '2025-06-25'
+- symbol: AIZ
+  sector: Financial Services
+  industry: Insurance - Property & Casualty
+  current_price: 194.60000610351562
+  market_cap: 10040076288
+  pe_ratio: 15.179408
+  dividend_yield: 1.64
+  screen_date: '2025-06-25'
+- symbol: ALL
+  sector: Financial Services
+  industry: Insurance - Property & Casualty
+  current_price: 190.94000244140625
+  market_cap: 51917541376
+  pe_ratio: 13.033447
+  dividend_yield: 2.09
+  screen_date: '2025-06-25'
+- symbol: AMCR
+  sector: Consumer Cyclical
+  industry: Packaging & Containers
+  current_price: 9.050000190734863
+  market_cap: 20736628736
+  pe_ratio: 16.160715
+  dividend_yield: 5.64
+  screen_date: '2025-06-25'
+- symbol: AMP
+  sector: Financial Services
+  industry: Asset Management
+  current_price: 524.02001953125
+  market_cap: 49898602496
+  pe_ratio: 17.82381
+  dividend_yield: 1.22
+  screen_date: '2025-06-25'
+- symbol: AOS
+  sector: Industrials
+  industry: Specialty Industrial Machinery
+  current_price: 65.04000091552734
+  market_cap: 9228591104
+  pe_ratio: 18.167599
+  dividend_yield: 2.09
+  screen_date: '2025-06-25'
+- symbol: APA
+  sector: Energy
+  industry: Oil & Gas E&P
+  current_price: 17.799999237060547
+  market_cap: 6560172032
+  pe_ratio: 6.379928
+  dividend_yield: 5.62
+  screen_date: '2025-06-25'
+- symbol: BAC
+  sector: Financial Services
+  industry: Banks - Diversified
+  current_price: 46.849998474121094
+  market_cap: 352868564992
+  pe_ratio: 13.985075
+  dividend_yield: 2.22
+  screen_date: '2025-06-25'
+- symbol: BBY
+  sector: Consumer Cyclical
+  industry: Specialty Retail
+  current_price: 68.0
+  market_cap: 14549075968
+  pe_ratio: 16.585365
+  dividend_yield: 5.59
+  screen_date: '2025-06-25'
+- symbol: BG
+  sector: Consumer Defensive
+  industry: Farm Products
+  current_price: 82.22000122070312
+  market_cap: 11050778624
+  pe_ratio: 10.554558
+  dividend_yield: 3.41
+  screen_date: '2025-06-25'
+- symbol: BK
+  sector: Financial Services
+  industry: Banks - Diversified
+  current_price: 90.0
+  market_cap: 65247567872
+  pe_ratio: 14.681892
+  dividend_yield: 2.09
+  screen_date: '2025-06-25'
+- symbol: BKR
+  sector: Energy
+  industry: Oil & Gas Equipment & Services
+  current_price: 37.58000183105469
+  market_cap: 37232386048
+  pe_ratio: 12.825939
+  dividend_yield: 2.45
+  screen_date: '2025-06-25'
+- symbol: BMY
+  sector: Healthcare
+  industry: Drug Manufacturers - General
+  current_price: 46.68000030517578
+  market_cap: 94997528576
+  pe_ratio: 17.41791
+  dividend_yield: 5.31
+  screen_date: '2025-06-25'
+- symbol: C
+  sector: Financial Services
+  industry: Banks - Diversified
+  current_price: 82.62999725341797
+  market_cap: 154330529792
+  pe_ratio: 13.053712
+  dividend_yield: 2.71
+  screen_date: '2025-06-25'
+- symbol: CAT
+  sector: Industrials
+  industry: Farm & Heavy Construction Machinery
+  current_price: 371.5799865722656
+  market_cap: 174759641088
+  pe_ratio: 18.117016
+  dividend_yield: 1.63
+  screen_date: '2025-06-25'
+- symbol: CB
+  sector: Financial Services
+  industry: Insurance - Property & Casualty
+  current_price: 282.82000732421875
+  market_cap: 113339555840
+  pe_ratio: 13.623314
+  dividend_yield: 1.37
+  screen_date: '2025-06-25'
+- symbol: CF
+  sector: Basic Materials
+  industry: Agricultural Inputs
+  current_price: 91.4000015258789
+  market_cap: 15339113472
+  pe_ratio: 12.089948
+  dividend_yield: 2.19
+  screen_date: '2025-06-25'
+- symbol: CFG
+  sector: Financial Services
+  industry: Banks - Regional
+  current_price: 43.119998931884766
+  market_cap: 18698944512
+  pe_ratio: 13.688889
+  dividend_yield: 3.9
+  screen_date: '2025-06-25'
+- symbol: CI
+  sector: Healthcare
+  industry: Healthcare Plans
+  current_price: 316.0
+  market_cap: 84638703616
+  pe_ratio: 17.604456
+  dividend_yield: 1.91
+  screen_date: '2025-06-25'
+- symbol: CINF
+  sector: Financial Services
+  industry: Insurance - Property & Casualty
+  current_price: 143.72000122070312
+  market_cap: 22928226304
+  pe_ratio: 15.655773
+  dividend_yield: 2.42
+  screen_date: '2025-06-25'
+- symbol: CMCSA
+  sector: Communication Services
+  industry: Telecom Services
+  current_price: 34.84000015258789
+  market_cap: 130082111488
+  pe_ratio: 8.581281
+  dividend_yield: 3.79
+  screen_date: '2025-06-25'
+- symbol: CMI
+  sector: Industrials
+  industry: Specialty Industrial Machinery
+  current_price: 318.75
+  market_cap: 44611932160
+  pe_ratio: 15.701971
+  dividend_yield: 2.28
+  screen_date: '2025-06-25'
+- symbol: COF
+  sector: Financial Services
+  industry: Credit Services
+  current_price: 208.02999877929688
+  market_cap: 133063270400
+  pe_ratio: 17.481514
+  dividend_yield: 1.15
+  screen_date: '2025-06-25'
+- symbol: COP
+  sector: Energy
+  industry: Oil & Gas E&P
+  current_price: 89.0
+  market_cap: 112354492416
+  pe_ratio: 11.280102
+  dividend_yield: 3.51
+  screen_date: '2025-06-25'
+- symbol: CSX
+  sector: Industrials
+  industry: Railroads
+  current_price: 32.4900016784668
+  market_cap: 61034094592
+  pe_ratio: 19.339287
+  dividend_yield: 1.6
+  screen_date: '2025-06-25'
+- symbol: CTRA
+  sector: Energy
+  industry: Oil & Gas E&P
+  current_price: 26.06999969482422
+  market_cap: 20463020032
+  pe_ratio: 15.245613
+  dividend_yield: 3.38
+  screen_date: '2025-06-25'
+- symbol: CTSH
+  sector: Technology
+  industry: Information Technology Services
+  current_price: 76.9800033569336
+  market_cap: 37946679296
+  pe_ratio: 16.206316
+  dividend_yield: 1.61
+  screen_date: '2025-06-25'
+- symbol: CVS
+  sector: Healthcare
+  industry: Healthcare Plans
+  current_price: 66.37000274658203
+  market_cap: 85489876992
+  pe_ratio: 15.8400955
+  dividend_yield: 4.01
+  screen_date: '2025-06-25'
+- symbol: CVX
+  sector: Energy
+  industry: Oil & Gas Integrated
+  current_price: 143.22999572753906
+  market_cap: 248107302912
+  pe_ratio: 16.369143
+  dividend_yield: 4.78
+  screen_date: '2025-06-25'
+- symbol: DAL
+  sector: Industrials
+  industry: Airlines
+  current_price: 48.310001373291016
+  market_cap: 31544162304
+  pe_ratio: 8.565603
+  dividend_yield: 1.55
+  screen_date: '2025-06-25'
+- symbol: DELL
+  sector: Technology
+  industry: Computer Hardware
+  current_price: 120.45999908447266
+  market_cap: 81862451200
+  pe_ratio: 18.880877
+  dividend_yield: 1.74
+  screen_date: '2025-06-25'
+- symbol: DHI
+  sector: Consumer Cyclical
+  industry: Residential Construction
+  current_price: 127.29000091552734
+  market_cap: 39819878400
+  pe_ratio: 9.650494
+  dividend_yield: 1.26
+  screen_date: '2025-06-25'
+- symbol: DTE
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 130.8699951171875
+  market_cap: 27157618688
+  pe_ratio: 17.709066
+  dividend_yield: 3.33
+  screen_date: '2025-06-25'
+- symbol: DUK
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 115.94999694824219
+  market_cap: 90900275200
+  pe_ratio: 19.228855
+  dividend_yield: 3.61
+  screen_date: '2025-06-25'
+- symbol: DVN
+  sector: Energy
+  industry: Oil & Gas E&P
+  current_price: 32.130001068115234
+  market_cap: 20771950592
+  pe_ratio: 7.3189073
+  dividend_yield: 2.99
+  screen_date: '2025-06-25'
+- symbol: EBAY
+  sector: Consumer Cyclical
+  industry: Internet Retail
+  current_price: 74.5199966430664
+  market_cap: 34342092800
+  pe_ratio: 17.913462
+  dividend_yield: 1.56
+  screen_date: '2025-06-25'
+- symbol: ED
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 98.05000305175781
+  market_cap: 36098088960
+  pe_ratio: 18.123846
+  dividend_yield: 3.47
+  screen_date: '2025-06-25'
+- symbol: EG
+  sector: Financial Services
+  industry: Insurance - Reinsurance
+  current_price: 336.44000244140625
+  market_cap: 14310374400
+  pe_ratio: 16.974773
+  dividend_yield: 2.38
+  screen_date: '2025-06-25'
+- symbol: EIX
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 50.40999984741211
+  market_cap: 19773020160
+  pe_ratio: 7.130127
+  dividend_yield: 6.57
+  screen_date: '2025-06-25'
+- symbol: ELV
+  sector: Healthcare
+  industry: Healthcare Plans
+  current_price: 373.8599853515625
+  market_cap: 85046419456
+  pe_ratio: 14.558411
+  dividend_yield: 1.83
+  screen_date: '2025-06-25'
+- symbol: EMN
+  sector: Basic Materials
+  industry: Specialty Chemicals
+  current_price: 75.87000274658203
+  market_cap: 8828082176
+  pe_ratio: 9.6649685
+  dividend_yield: 4.38
+  screen_date: '2025-06-25'
+- symbol: EOG
+  sector: Energy
+  industry: Oil & Gas E&P
+  current_price: 119.81999969482422
+  market_cap: 65865531392
+  pe_ratio: 11.094444
+  dividend_yield: 3.41
+  screen_date: '2025-06-25'
+- symbol: EVRG
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 68.19000244140625
+  market_cap: 15689906176
+  pe_ratio: 17.944738
+  dividend_yield: 3.92
+  screen_date: '2025-06-25'
+- symbol: EXC
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 42.290000915527344
+  market_cap: 42693447680
+  pe_ratio: 15.7211895
+  dividend_yield: 3.78
+  screen_date: '2025-06-25'
+- symbol: EXPD
+  sector: Industrials
+  industry: Integrated Freight & Logistics
+  current_price: 112.27999877929688
+  market_cap: 15633978368
+  pe_ratio: 18.651163
+  dividend_yield: 1.37
+  screen_date: '2025-06-25'
+- symbol: EXPE
+  sector: Consumer Cyclical
+  industry: Travel Services
+  current_price: 165.75
+  market_cap: 21070305280
+  pe_ratio: 19.755661
+  dividend_yield: 0.97
+  screen_date: '2025-06-25'
+- symbol: F
+  sector: Consumer Cyclical
+  industry: Auto Manufacturers
+  current_price: 10.479999542236328
+  market_cap: 41674240000
+  pe_ratio: 8.384
+  dividend_yield: 7.16
+  screen_date: '2025-06-25'
+- symbol: FANG
+  sector: Energy
+  industry: Oil & Gas E&P
+  current_price: 138.0399932861328
+  market_cap: 40330870784
+  pe_ratio: 8.584577
+  dividend_yield: 3.8
+  screen_date: '2025-06-25'
+- symbol: FDX
+  sector: Industrials
+  industry: Integrated Freight & Logistics
+  current_price: 222.0
+  market_cap: 54990286848
+  pe_ratio: 13.206425
+  dividend_yield: 2.53
+  screen_date: '2025-06-25'
+- symbol: FITB
+  sector: Financial Services
+  industry: Banks - Regional
+  current_price: 40.68000030517578
+  market_cap: 27153573888
+  pe_ratio: 12.914286
+  dividend_yield: 3.64
+  screen_date: '2025-06-25'
+- symbol: FOX
+  sector: Communication Services
+  industry: Entertainment
+  current_price: 51.380001068115234
+  market_cap: 24088076288
+  pe_ratio: 12.717822
+  dividend_yield: 1.05
+  screen_date: '2025-06-25'
+- symbol: FOXA
+  sector: Communication Services
+  industry: Entertainment
+  current_price: 55.9900016784668
+  market_cap: 24088074240
+  pe_ratio: 13.8589115
+  dividend_yield: 0.96
+  screen_date: '2025-06-25'
+- symbol: GD
+  sector: Industrials
+  industry: Aerospace & Defense
+  current_price: 285.9100036621094
+  market_cap: 76737101824
+  pe_ratio: 19.841084
+  dividend_yield: 2.1
+  screen_date: '2025-06-25'
+- symbol: GEHC
+  sector: Healthcare
+  industry: Health Information Services
+  current_price: 72.75
+  market_cap: 33311133696
+  pe_ratio: 15.283612
+  dividend_yield: 0.19
+  screen_date: '2025-06-25'
+- symbol: GIS
+  sector: Consumer Defensive
+  industry: Packaged Foods
+  current_price: 50.68000030517578
+  market_cap: 27489490944
+  pe_ratio: 12.360976
+  dividend_yield: 4.49
+  screen_date: '2025-06-25'
+- symbol: GL
+  sector: Financial Services
+  industry: Insurance - Life
+  current_price: 121.41999816894531
+  market_cap: 10022358016
+  pe_ratio: 9.887622
+  dividend_yield: 0.89
+  screen_date: '2025-06-25'
+- symbol: GM
+  sector: Consumer Cyclical
+  industry: Auto Manufacturers
+  current_price: 48.130001068115234
+  market_cap: 46273867776
+  pe_ratio: 6.7220674
+  dividend_yield: 1.25
+  screen_date: '2025-06-25'
+- symbol: GOOG
+  sector: Communication Services
+  industry: Internet Content & Information
+  current_price: 171.49000549316406
+  market_cap: 2075577810944
+  pe_ratio: 19.160894
+  dividend_yield: 0.49
+  screen_date: '2025-06-25'
+- symbol: GOOGL
+  sector: Communication Services
+  industry: Internet Content & Information
+  current_price: 170.67999267578125
+  market_cap: 2075588296704
+  pe_ratio: 19.049107
+  dividend_yield: 0.49
+  screen_date: '2025-06-25'
+- symbol: GPC
+  sector: Consumer Cyclical
+  industry: Auto Parts
+  current_price: 119.1500015258789
+  market_cap: 16821358592
+  pe_ratio: 19.56486
+  dividend_yield: 3.46
+  screen_date: '2025-06-25'
+- symbol: GPN
+  sector: Industrials
+  industry: Specialty Business Services
+  current_price: 77.72000122070312
+  market_cap: 19261659136
+  pe_ratio: 12.576053
+  dividend_yield: 1.29
+  screen_date: '2025-06-25'
+- symbol: GS
+  sector: Financial Services
+  industry: Capital Markets
+  current_price: 669.8699951171875
+  market_cap: 205543571456
+  pe_ratio: 15.553053
+  dividend_yield: 1.79
+  screen_date: '2025-06-25'
+- symbol: HAL
+  sector: Energy
+  industry: Oil & Gas Equipment & Services
+  current_price: 20.260000228881836
+  market_cap: 17417826304
+  pe_ratio: 8.476987
+  dividend_yield: 3.36
+  screen_date: '2025-06-25'
+- symbol: HBAN
+  sector: Financial Services
+  industry: Banks - Regional
+  current_price: 16.280000686645508
+  market_cap: 23716868096
+  pe_ratio: 12.523078
+  dividend_yield: 3.81
+  screen_date: '2025-06-25'
+- symbol: HCA
+  sector: Healthcare
+  industry: Medical Care Facilities
+  current_price: 374.19000244140625
+  market_cap: 91182252032
+  pe_ratio: 16.608522
+  dividend_yield: 0.77
+  screen_date: '2025-06-25'
+- symbol: HES
+  sector: Energy
+  industry: Oil & Gas E&P
+  current_price: 138.1199951171875
+  market_cap: 42864984064
+  pe_ratio: 19.156727
+  dividend_yield: 1.45
+  screen_date: '2025-06-25'
+- symbol: HIG
+  sector: Financial Services
+  industry: Insurance - Property & Casualty
+  current_price: 124.0
+  market_cap: 35961737216
+  pe_ratio: 12.362911
+  dividend_yield: 1.68
+  screen_date: '2025-06-25'
+- symbol: HII
+  sector: Industrials
+  industry: Aerospace & Defense
+  current_price: 235.1199951171875
+  market_cap: 9225896960
+  pe_ratio: 16.951694
+  dividend_yield: 2.3
+  screen_date: '2025-06-25'
+- symbol: HPE
+  sector: Technology
+  industry: Communication Equipment
+  current_price: 18.489999771118164
+  market_cap: 24262948864
+  pe_ratio: 17.778847
+  dividend_yield: 2.81
+  screen_date: '2025-06-25'
+- symbol: HPQ
+  sector: Technology
+  industry: Computer Hardware
+  current_price: 24.530000686645508
+  market_cap: 23049762816
+  pe_ratio: 9.434616
+  dividend_yield: 4.72
+  screen_date: '2025-06-25'
+- symbol: HST
+  sector: Real Estate
+  industry: REIT - Hotel & Motel
+  current_price: 15.5
+  market_cap: 10898236416
+  pe_ratio: 16.145834
+  dividend_yield: 5.16
+  screen_date: '2025-06-25'
+- symbol: HUM
+  sector: Healthcare
+  industry: Healthcare Plans
+  current_price: 238.50999450683594
+  market_cap: 28820355072
+  pe_ratio: 16.832039
+  dividend_yield: 1.48
+  screen_date: '2025-06-25'
+- symbol: IPG
+  sector: Communication Services
+  industry: Advertising Agencies
+  current_price: 24.110000610351562
+  market_cap: 9128744960
+  pe_ratio: 18.404581
+  dividend_yield: 5.47
+  screen_date: '2025-06-25'
+- symbol: IVZ
+  sector: Financial Services
+  industry: Asset Management
+  current_price: 15.25
+  market_cap: 6825228800
+  pe_ratio: 12.2
+  dividend_yield: 5.51
+  screen_date: '2025-06-25'
+- symbol: JNJ
+  sector: Healthcare
+  industry: Drug Manufacturers - General
+  current_price: 152.27999877929688
+  market_cap: 366396342272
+  pe_ratio: 16.957684
+  dividend_yield: 3.41
+  screen_date: '2025-06-25'
+- symbol: JPM
+  sector: Financial Services
+  industry: Banks - Diversified
+  current_price: 284.05999755859375
+  market_cap: 789428305920
+  pe_ratio: 13.945017
+  dividend_yield: 1.97
+  screen_date: '2025-06-25'
+- symbol: K
+  sector: Consumer Defensive
+  industry: Packaged Foods
+  current_price: 77.8499984741211
+  market_cap: 27241660416
+  pe_ratio: 19.609571
+  dividend_yield: 2.93
+  screen_date: '2025-06-25'
+- symbol: KHC
+  sector: Consumer Defensive
+  industry: Packaged Foods
+  current_price: 25.729999542236328
+  market_cap: 30452482048
+  pe_ratio: 11.7488575
+  dividend_yield: 6.22
+  screen_date: '2025-06-25'
+- symbol: KMB
+  sector: Consumer Defensive
+  industry: Household & Personal Products
+  current_price: 128.14999389648438
+  market_cap: 43119525888
+  pe_ratio: 17.459127
+  dividend_yield: 3.93
+  screen_date: '2025-06-25'
+- symbol: KR
+  sector: Consumer Defensive
+  industry: Grocery Stores
+  current_price: 72.22000122070312
+  market_cap: 48530612224
+  pe_ratio: 19.678474
+  dividend_yield: 1.77
+  screen_date: '2025-06-25'
+- symbol: L
+  sector: Financial Services
+  industry: Insurance - Property & Casualty
+  current_price: 88.9000015258789
+  market_cap: 18868492288
+  pe_ratio: 14.5737705
+  dividend_yield: 0.28
+  screen_date: '2025-06-25'
+- symbol: LDOS
+  sector: Technology
+  industry: Information Technology Services
+  current_price: 153.9600067138672
+  market_cap: 19817578496
+  pe_ratio: 15.520162
+  dividend_yield: 1.04
+  screen_date: '2025-06-25'
+- symbol: LEN
+  sector: Consumer Cyclical
+  industry: Residential Construction
+  current_price: 109.7699966430664
+  market_cap: 29302880256
+  pe_ratio: 9.094449
+  dividend_yield: 1.82
+  screen_date: '2025-06-25'
+- symbol: LKQ
+  sector: Consumer Cyclical
+  industry: Auto Parts
+  current_price: 36.939998626708984
+  market_cap: 9719245824
+  pe_ratio: 13.732341
+  dividend_yield: 3.25
+  screen_date: '2025-06-25'
+- symbol: LMT
+  sector: Industrials
+  industry: Aerospace & Defense
+  current_price: 458.3900146484375
+  market_cap: 107398946816
+  pe_ratio: 19.76671
+  dividend_yield: 2.88
+  screen_date: '2025-06-25'
+- symbol: LOW
+  sector: Consumer Cyclical
+  industry: Home Improvement Retail
+  current_price: 220.6999969482422
+  market_cap: 123688665088
+  pe_ratio: 18.254755
+  dividend_yield: 2.17
+  screen_date: '2025-06-25'
+- symbol: LYB
+  sector: Basic Materials
+  industry: Specialty Chemicals
+  current_price: 57.47999954223633
+  market_cap: 18747273216
+  pe_ratio: 19.889273
+  dividend_yield: 9.53
+  screen_date: '2025-06-25'
+- symbol: MAS
+  sector: Industrials
+  industry: Building Products & Equipment
+  current_price: 63.189998626708984
+  market_cap: 13329424384
+  pe_ratio: 17.265026
+  dividend_yield: 1.96
+  screen_date: '2025-06-25'
+- symbol: MET
+  sector: Financial Services
+  industry: Insurance - Life
+  current_price: 79.11000061035156
+  market_cap: 53475590144
+  pe_ratio: 12.926471
+  dividend_yield: 2.87
+  screen_date: '2025-06-25'
+- symbol: MMM
+  sector: Industrials
+  industry: Conglomerates
+  current_price: 147.75
+  market_cap: 79516237824
+  pe_ratio: 18.422691
+  dividend_yield: 1.98
+  screen_date: '2025-06-25'
+- symbol: MO
+  sector: Consumer Defensive
+  industry: Tobacco
+  current_price: 58.939998626708984
+  market_cap: 99281485824
+  pe_ratio: 9.889261
+  dividend_yield: 6.92
+  screen_date: '2025-06-25'
+- symbol: MPWR
+  sector: Technology
+  industry: Semiconductors
+  current_price: 722.8200073242188
+  market_cap: 34608623616
+  pe_ratio: 19.270061
+  dividend_yield: 0.86
+  screen_date: '2025-06-25'
+- symbol: MRK
+  sector: Healthcare
+  industry: Drug Manufacturers - General
+  current_price: 79.66999816894531
+  market_cap: 200053751808
+  pe_ratio: 11.579942
+  dividend_yield: 4.07
+  screen_date: '2025-06-25'
+- symbol: MS
+  sector: Financial Services
+  industry: Capital Markets
+  current_price: 137.72000122070312
+  market_cap: 220946956288
+  pe_ratio: 16.164318
+  dividend_yield: 2.69
+  screen_date: '2025-06-25'
+- symbol: MTB
+  sector: Financial Services
+  industry: Banks - Regional
+  current_price: 191.22999572753906
+  market_cap: 30695473152
+  pe_ratio: 12.799867
+  dividend_yield: 2.82
+  screen_date: '2025-06-25'
+- symbol: MTCH
+  sector: Communication Services
+  industry: Internet Content & Information
+  current_price: 30.860000610351562
+  market_cap: 7567643648
+  pe_ratio: 15.277228
+  dividend_yield: 2.46
+  screen_date: '2025-06-25'
+- symbol: NEM
+  sector: Basic Materials
+  industry: Gold
+  current_price: 58.060001373291016
+  market_cap: 64620777472
+  pe_ratio: 13.225513
+  dividend_yield: 1.72
+  screen_date: '2025-06-25'
+- symbol: NOC
+  sector: Industrials
+  industry: Aerospace & Defense
+  current_price: 486.9200134277344
+  market_cap: 70081421312
+  pe_ratio: 19.230648
+  dividend_yield: 1.9
+  screen_date: '2025-06-25'
+- symbol: NSC
+  sector: Industrials
+  industry: Railroads
+  current_price: 255.2100067138672
+  market_cap: 58042671104
+  pe_ratio: 17.420479
+  dividend_yield: 2.12
+  screen_date: '2025-06-25'
+- symbol: NTAP
+  sector: Technology
+  industry: Computer Hardware
+  current_price: 105.18000030517578
+  market_cap: 21074495488
+  pe_ratio: 18.550264
+  dividend_yield: 1.98
+  screen_date: '2025-06-25'
+- symbol: NTRS
+  sector: Financial Services
+  industry: Asset Management
+  current_price: 123.80000305175781
+  market_cap: 24083929088
+  pe_ratio: 11.559291
+  dividend_yield: 2.42
+  screen_date: '2025-06-25'
+- symbol: OKE
+  sector: Energy
+  industry: Oil & Gas Midstream
+  current_price: 80.19000244140625
+  market_cap: 50089242624
+  pe_ratio: 15.66211
+  dividend_yield: 5.14
+  screen_date: '2025-06-25'
+- symbol: OMC
+  sector: Communication Services
+  industry: Advertising Agencies
+  current_price: 70.69000244140625
+  market_cap: 13843506176
+  pe_ratio: 9.657104
+  dividend_yield: 3.96
+  screen_date: '2025-06-25'
+- symbol: OXY
+  sector: Energy
+  industry: Oil & Gas E&P
+  current_price: 42.41999816894531
+  market_cap: 41746919424
+  pe_ratio: 17.174088
+  dividend_yield: 2.26
+  screen_date: '2025-06-25'
+- symbol: PCAR
+  sector: Industrials
+  industry: Farm & Heavy Construction Machinery
+  current_price: 94.13999938964844
+  market_cap: 49419640832
+  pe_ratio: 14.28528
+  dividend_yield: 1.4
+  screen_date: '2025-06-25'
+- symbol: PCG
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 13.789999961853027
+  market_cap: 30306009088
+  pe_ratio: 12.651376
+  dividend_yield: 0.73
+  screen_date: '2025-06-25'
+- symbol: PEP
+  sector: Consumer Defensive
+  industry: Beverages - Non-Alcoholic
+  current_price: 128.02000427246094
+  market_cap: 175525658624
+  pe_ratio: 18.826471
+  dividend_yield: 4.44
+  screen_date: '2025-06-25'
+- symbol: PFE
+  sector: Healthcare
+  industry: Drug Manufacturers - General
+  current_price: 24.260000228881836
+  market_cap: 137927081984
+  pe_ratio: 17.57971
+  dividend_yield: 7.09
+  screen_date: '2025-06-25'
+- symbol: PFG
+  sector: Financial Services
+  industry: Asset Management
+  current_price: 77.05999755859375
+  market_cap: 17276157952
+  pe_ratio: 16.50107
+  dividend_yield: 3.94
+  screen_date: '2025-06-25'
+- symbol: PGR
+  sector: Financial Services
+  industry: Insurance - Property & Casualty
+  current_price: 259.6700134277344
+  market_cap: 155941453824
+  pe_ratio: 17.509779
+  dividend_yield: 1.89
+  screen_date: '2025-06-25'
+- symbol: PHM
+  sector: Consumer Cyclical
+  industry: Residential Construction
+  current_price: 103.55999755859375
+  market_cap: 21143015424
+  pe_ratio: 7.313559
+  dividend_yield: 0.85
+  screen_date: '2025-06-25'
+- symbol: PKG
+  sector: Consumer Cyclical
+  industry: Packaging & Containers
+  current_price: 186.83999633789062
+  market_cap: 17043113984
+  pe_ratio: 19.523512
+  dividend_yield: 2.68
+  screen_date: '2025-06-25'
+- symbol: PNC
+  sector: Financial Services
+  industry: Banks - Regional
+  current_price: 182.50999450683594
+  market_cap: 72194932736
+  pe_ratio: 12.907354
+  dividend_yield: 3.51
+  screen_date: '2025-06-25'
+- symbol: PNW
+  sector: Utilities
+  industry: Utilities - Regulated Electric
+  current_price: 88.73999786376953
+  market_cap: 10766202880
+  pe_ratio: 17.572277
+  dividend_yield: 4.03
+  screen_date: '2025-06-25'
+- symbol: PRU
+  sector: Financial Services
+  industry: Insurance - Life
+  current_price: 105.5199966430664
+  market_cap: 37354819584
+  pe_ratio: 16.643532
+  dividend_yield: 5.12
+  screen_date: '2025-06-25'
+- symbol: QCOM
+  sector: Technology
+  industry: Semiconductors
+  current_price: 155.92999267578125
+  market_cap: 171211128832
+  pe_ratio: 15.927476
+  dividend_yield: 2.28
+  screen_date: '2025-06-25'
+- symbol: REGN
+  sector: Healthcare
+  industry: Biotechnology
+  current_price: 520.2899780273438
+  market_cap: 56173109248
+  pe_ratio: 13.228832
+  dividend_yield: 0.68
+  screen_date: '2025-06-25'
+- symbol: RF
+  sector: Financial Services
+  industry: Banks - Regional
+  current_price: 22.889999389648438
+  market_cap: 20576505856
+  pe_ratio: 11.057971
+  dividend_yield: 4.37
+  screen_date: '2025-06-25'
+- symbol: RJF
+  sector: Financial Services
+  industry: Asset Management
+  current_price: 151.72999572753906
+  market_cap: 30612287488
+  pe_ratio: 14.617533
+  dividend_yield: 1.32
+  screen_date: '2025-06-25'

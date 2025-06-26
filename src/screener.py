@@ -271,26 +271,29 @@ class StockScreener:
         
         return value_stocks
     
-    def save_results(self, results: List[Dict], screen_name: str, output_dir: str = '../data') -> str:
+    def save_results(self, results: List[Dict], screen_name: str, output_dir: str = None) -> str:
         """Save screening results to YAML file"""
-        os.makedirs(output_dir, exist_ok=True)
-        
+        # Always resolve data directory relative to this script
+        script_dir = Path(__file__).resolve().parent
+        data_dir = script_dir.parent / "data"
+        data_dir.mkdir(exist_ok=True)
+
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         filename = f"{screen_name}_{timestamp}.yaml"
-        filepath = os.path.join(output_dir, filename)
-        
+        filepath = data_dir / filename
+
         output_data = {
             'screen_name': screen_name,
             'screen_date': datetime.now().isoformat(),
             'total_results': len(results),
             'results': results
         }
-        
+
         with open(filepath, 'w') as f:
             yaml.dump(output_data, f, default_flow_style=False, sort_keys=False)
-        
+
         print(f"Results saved to {filepath}")
-        return filepath
+        return str(filepath)
 
 if __name__ == "__main__":
     # Test with a few known symbols
@@ -298,4 +301,3 @@ if __name__ == "__main__":
         {'symbol': 'AAPL', 'sector': 'Technology', 'market_cap': 3000000000000},
         {'symbol': 'MSFT', 'sector': 'Technology', 'market_cap': 2800000000000}
     ]
-    

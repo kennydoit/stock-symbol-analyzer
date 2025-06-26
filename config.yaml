@@ -1,3 +1,5 @@
+stock_db_path: "$project_root/stock-database/database/stock_database.db"
+
 # Stock Symbol Configuration
 symbol_sources:
   # Major US Exchanges

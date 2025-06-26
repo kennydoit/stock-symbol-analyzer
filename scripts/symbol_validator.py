@@ -46,6 +46,7 @@ class SymbolValidator:
             # Validation checks
             validation_result = {
                 'symbol': symbol,
+                'name': info.get('shortName', ''),
                 'valid': True,
                 'reasons': [],
                 'market_cap': info.get('marketCap', 0),
@@ -198,18 +199,20 @@ def main():
         for sector, count in sorted(sector_counts.items(), key=lambda x: x[1], reverse=True):
             print(f"  {sector}: {count} stocks")
     
-    # Create data directory if it doesn't exist
-    data_dir = '../data'
-    os.makedirs(data_dir, exist_ok=True)
-    
+    # Always resolve data directory relative to this script
+    script_dir = Path(__file__).resolve().parent
+    data_dir = script_dir.parent / "data"
+    data_dir.mkdir(exist_ok=True)
+
     # Save results with cleaner format (convert numpy types to Python native types)
-    output_file = os.path.join(data_dir, 'validated_symbols.yaml')
+    output_file = data_dir / "validated_symbols.yaml"
     
     # Clean the data before saving to avoid numpy serialization issues
     cleaned_universe = {
         'valid_symbols': [
             {
                 'symbol': s['symbol'],
+                'name': s.get('name', ''),
                 'market_cap': int(s['market_cap']) if s['market_cap'] > 0 else 0,
                 'avg_volume': float(s['avg_volume']),
                 'current_price': float(s['current_price']),

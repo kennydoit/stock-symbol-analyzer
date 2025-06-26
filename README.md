@@ -10,24 +10,6 @@ This system validates S&P 500 stocks against quality criteria and applies differ
 - **Realistic Value Stocks**: Broad value universe with reasonable P/E and dividend criteria  
 - **Traditional Value Stocks**: Classic value plays with strict fundamental requirements
 
-## 📁 Project Structure
-
-```
-stock-symbol-analyzer/
-├── src/
-│   ├── symbol_validator.py      # Core validation logic
-│   ├── screener.py             # Screening strategies
-│   ├── symbol_list_generator.py # Generate clean symbol lists
-│   └── screener_diagnostics.py # Analysis tools
-├── workflows/
-│   └── screening_workflow.py   # Orchestration scripts
-├── config/
-│   └── symbols_config.yaml     # Configuration settings
-├── data/                       # Generated output files
-├── *.bat                      # Windows batch scripts
-└── README.md
-```
-
 ## 🚀 Quick Start
 
 ### 1. Environment Setup
@@ -35,31 +17,18 @@ stock-symbol-analyzer/
 ```bash
 # Clone the repository
 git clone https://github.com/kennydoit/stock-symbol-analyzer.git
-cd stock-symbol-analyzer
 
 # Create virtual environment with uv
-uv venv
+uv sync
 .venv\Scripts\activate
-
-# Install dependencies
-uv add yfinance pandas pyyaml
 ```
 
 ### 2. Run Complete Workflow
 
 ```bash
-# Option A: Use batch files (Windows)
-validate.bat        # Validate S&P 500 symbols
-screen.bat         # Run all screening strategies
-generate_lists.bat # Create clean symbol lists
-
-# Option B: Run manually
-cd src
-python symbol_validator.py
-cd ..\workflows  
-python screening_workflow.py
-cd ..\src
-python symbol_list_generator.py
+python .\scripts\symbol_validator.py
+python .\scripts\stock_screener.py
+python .\scripts\symbol_list_generator.py
 ```
 
 ## 📋 Step-by-Step Instructions
@@ -83,16 +52,14 @@ python symbol_list_generator.py
 
 2. **Validate Symbol Universe**
    ```bash
-   cd src
-   python symbol_validator.py
+python .\scripts\symbol_validator.py
    ```
    
    **Output**: `data/validated_symbols.yaml` with ~500 validated S&P 500 symbols
 
 3. **Run Screening Strategies**
    ```bash
-   cd workflows
-   python stock_screener.py
+python .\scripts\stock_screener.py
    ```
    
    **Output**: Three screening result files in `data/`:

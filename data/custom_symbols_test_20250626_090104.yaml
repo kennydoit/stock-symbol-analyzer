@@ -1,0 +1,25 @@
+screen_name: custom_symbols_test
+screen_date: '2025-06-26T09:01:04.010331'
+total_results: 3
+results:
+- symbol: AAPL
+  sector: Technology
+  industry: Unknown
+  current_price: 0
+  market_cap: 3000000000000
+  screen_date: '2025-06-26'
+  inclusion_reason: custom_symbol
+- symbol: MSFT
+  sector: Technology
+  industry: Unknown
+  current_price: 0
+  market_cap: 2800000000000
+  screen_date: '2025-06-26'
+  inclusion_reason: custom_symbol
+- symbol: GOOGL
+  sector: Technology
+  industry: Unknown
+  current_price: 0
+  market_cap: 1500000000000
+  screen_date: '2025-06-26'
+  inclusion_reason: custom_symbol

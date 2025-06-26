@@ -20,14 +20,14 @@ else:
 print(f"Using database path: {db_path}")
 
 # Path to your validated symbols YAML
-VALIDATED_SYMBOLS_PATH = project_root / "stock-symbol-analyzer/data" / "validated_symbols.yaml"
+VALIDATED_SYMBOLS_PATH = project_root / "stock-symbol-screener/data" / "validated_symbols.yaml"
 
 print(f"Using validated symbols path: {VALIDATED_SYMBOLS_PATH}")
 
 def create_symbols_table(conn):
     create_table_sql = """
     CREATE TABLE IF NOT EXISTS symbols (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        symbol_id INTEGER PRIMARY KEY AUTOINCREMENT,
         symbol VARCHAR(10) NOT NULL UNIQUE,
         name VARCHAR(255),
         sector VARCHAR(100),

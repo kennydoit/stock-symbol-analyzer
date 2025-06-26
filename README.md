@@ -1,53 +1,59 @@
-# Stock Symbol Analyzer
+# Stock Symbol Screener - Clean Workflow
 
-A comprehensive stock symbol validation and screening system that provides professionally curated symbol lists for financial analysis and machine learning applications.
+A stock symbol validation and database preparation system designed to avoid data leakage and minimize API calls for robust financial analysis.
 
 ## 🎯 Overview
 
-This system validates S&P 500 stocks against quality criteria and applies different screening strategies to create focused investment universes:
+This system provides a clean, bias-free workflow for preparing stock symbol universes:
 
-- **Momentum Stocks**: High-performing stocks with recent price momentum and volume activity
-- **Realistic Value Stocks**: Broad value universe with reasonable P/E and dividend criteria  
-- **Traditional Value Stocks**: Classic value plays with strict fundamental requirements
+1. **Symbol Validation**: Validates S&P 500 stocks against basic quality criteria
+2. **Database Storage**: Stores validated symbols in a structured database
+3. **Custom Symbol Extraction**: Extracts predefined custom symbols without market data screening
+
+**Key Features:**
+- ✅ No forward-looking bias or data leakage
+- ✅ Minimal API requests (only for validation)
+- ✅ Reproducible symbol universes
+- ✅ Database-ready output
 
 ## 🚀 Quick Start
 
 ### 1. Environment Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/kennydoit/stock-symbol-analyzer.git
-
 # Create virtual environment with uv
 uv sync
-.venv\Scripts\activate
+# Activate based on your shell
+.venv\Scripts\activate  # Windows PowerShell
+# .venv\bin\activate    # Linux/Mac
 ```
 
-### 2. Run Complete Workflow
+### 2. Run Clean Workflow
 
 ```bash
-python .\scripts\symbol_validator.py
-python .\scripts\stock_screener.py
-python .\scripts\symbol_list_generator.py
+# Step 1: Validate symbols (makes API calls for validation only)
+python scripts\symbol_validator.py
+
+# Step 2: Write validated symbols to database  
+python scripts\write_symbols_to_db.py
+
+# Step 3: Extract custom symbols (no API calls, no data leakage)
+python scripts\clean_workflow.py
 ```
 
-## 📋 Step-by-Step Instructions
+## 📋 What Changed
 
-### Initialize From Scratch
+### Removed (Data Leakage Sources)
+- ❌ `stock_screener.py` - Used recent returns and volume ratios
+- ❌ Momentum screening methods - Forward-looking price data
+- ❌ Value screening methods - Current P/E and dividend data
+- ❌ Multiple API calls for real-time market data
 
-1. **Configure Symbol Sources** (optional)
-   ```yaml
-   # Edit config/symbols_config.yaml
-   symbol_sources:
-     sp500: true                    # Include S&P 500
-     custom_symbols:                # Force-include these symbols
-       - "AAPL"
-       - "GOOGL" 
-       - "MSFT"
-   
-   validation:
-     min_market_cap: 1000000000     # $1B minimum
-     min_avg_volume: 100000         # 100K shares daily
+### Kept (Clean Components)  
+- ✅ Symbol validation with basic quality checks
+- ✅ Database writing functionality
+- ✅ Custom symbol list management
+- ✅ Configuration-based symbol selection
    ```
 
 2. **Validate Symbol Universe**
